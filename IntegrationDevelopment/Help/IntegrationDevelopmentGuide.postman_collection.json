@@ -3010,11 +3010,11 @@
 					]
 				},
 				{
-					"name": "Invoice",
+					"name": "InventorySummaryInquiry",
 					"item": []
 				},
 				{
-					"name": "InventorySummaryInquiry",
+					"name": "Invoice",
 					"item": []
 				},
 				{
@@ -3134,6 +3134,26 @@
 				},
 				{
 					"name": "Payment",
+					"item": []
+				},
+				{
+					"name": "ProFormaInvoice",
+					"item": []
+				},
+				{
+					"name": "Project",
+					"item": []
+				},
+				{
+					"name": "ProjectBilling",
+					"item": []
+				},
+				{
+					"name": "ProjectBudget",
+					"item": []
+				},
+				{
+					"name": "ProjectTask",
 					"item": []
 				},
 				{
@@ -3350,23 +3370,7 @@
 					]
 				},
 				{
-					"name": "ProFormaInvoice",
-					"item": []
-				},
-				{
-					"name": "Project",
-					"item": []
-				},
-				{
-					"name": "ProjectBilling",
-					"item": []
-				},
-				{
-					"name": "ProjectBudget",
-					"item": []
-				},
-				{
-					"name": "ProjectTask",
+					"name": "SalesInvoice",
 					"item": []
 				},
 				{
@@ -3487,10 +3491,6 @@
 							]
 						}
 					]
-				},
-				{
-					"name": "SalesInvoice",
-					"item": []
 				},
 				{
 					"name": "ServiceOrder",
