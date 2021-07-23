@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "f1cffffd-1c5c-4a52-939a-1d01b05eb8fe",
+		"_postman_id": "1d71bb64-60ea-4102-b64c-62307c48a194",
 		"name": "Integration Development Guide",
 		"description": "This collection contains examples from the Integration Development Guide of Acumatica ERP.\n\n**Testing the Requests**\n\nTo test the examples, you configure this collection and the Acumatica ERP instance to be used as follows:\n\n - Deploy a new Acumatica ERP instance with the U100 dataset. For details on deploying an instance, see [To Deploy an Acumatica ERP Instance](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=b18ad378-0a8c-44f1-a14c-6b4f9c6271e4) in the Installation Guide.\n - Specify the URL of the instance in the BaseURL variable of the collection. The EndpointURL variable uses the value from the BaseURL variable and specifies the URL of the Default/20.200.001 endpoint. You do not need to change this variable until you want to use another endpoint.\n - To sign in to the instance in the client application, use the tenant name (which you specified when you created the instance) and the HEADOFFICE branch.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -1977,7 +1977,610 @@
 				},
 				{
 					"name": "Activity",
-					"item": []
+					"item": [
+						{
+							"name": "Create an Activity that is Linked to a Case: 1 Create a Case",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ClassID\": {\"value\": \"JREPAIR\"},\r\n    \"BusinessAccount\": {\"value\": \"ABAKERY\"},\r\n    \"ContactID\": {\"value\":  \"100211\"},\r\n    \"Subject\": {\"value\":  \"Some Subject\"}\r\n}"
+								},
+								"url": {
+									"raw": "{{EndpointURL}}Case",
+									"host": [
+										"{{EndpointURL}}Case"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create an Activity that is Linked to a Case: 1 Create a Case",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"ClassID\": {\"value\": \"JREPAIR\"},\r\n    \"BusinessAccount\": {\"value\": \"ABAKERY\"},\r\n    \"ContactID\": {\"value\":  \"100211\"},\r\n    \"Subject\": {\"value\":  \"Some Subject\"}\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}Case",
+											"host": [
+												"{{EndpointURL}}Case"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898EE9D11EBEA1FC0B260A0; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:20494+sc:~/entity/default/20.200.001/case+start:637624675672723208+tg:; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 21 Jul 2021 12:33:07 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1052"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"f14f99ca-1fea-eb11-9dee-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"Billable\": {\n        \"value\": true\n    },\n    \"BillableOvertime\": {\n        \"value\": 0\n    },\n    \"BillableTime\": {\n        \"value\": 0\n    },\n    \"BusinessAccount\": {\n        \"value\": \"ABAKERY\"\n    },\n    \"BusinessAccountName\": {\n        \"value\": \"ABAKERY\"\n    },\n    \"CaseID\": {\n        \"value\": \"000012\"\n    },\n    \"ClassID\": {\n        \"value\": \"JREPAIR\"\n    },\n    \"ClosingDate\": {},\n    \"ContactDisplayName\": {\n        \"value\": \"Beverly Hail\"\n    },\n    \"ContactID\": {\n        \"value\": 100211\n    },\n    \"DateReported\": {\n        \"value\": \"2021-07-21T15:33:06.343+03:00\"\n    },\n    \"Description\": {},\n    \"InitialResponse\": {},\n    \"LastActivityDate\": {},\n    \"LastIncomingActivity\": {},\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-07-21T15:33:06.343+03:00\"\n    },\n    \"LastOutgoingActivity\": {},\n    \"Location\": {},\n    \"ManualOverride\": {},\n    \"NoteID\": {\n        \"value\": \"f14f99ca-1fea-eb11-9dee-9828a61840c3\"\n    },\n    \"OvertimeSpent\": {\n        \"value\": \"000\"\n    },\n    \"Owner\": {},\n    \"OwnerEmployeeName\": {},\n    \"Priority\": {\n        \"value\": \"Medium\"\n    },\n    \"Reason\": {\n        \"value\": \"Unassigned\"\n    },\n    \"ResolutionTime\": {\n        \"value\": \"000\"\n    },\n    \"Severity\": {\n        \"value\": \"Medium\"\n    },\n    \"SLA\": {},\n    \"Status\": {\n        \"value\": \"New\"\n    },\n    \"Subject\": {\n        \"value\": \"Some Subject\"\n    },\n    \"TimeSpent\": {\n        \"value\": \"000\"\n    },\n    \"Workgroup\": {},\n    \"WorkgroupDescription\": {},\n    \"custom\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "Create an Activity that is Linked to a Case: 2 Create an Activity",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"Summary\": {\"value\": \"Automated Test\"},\r\n    \"Type\": {\"value\": \"M\"},\r\n    \"RelatedEntityNoteID\": {\"value\": \"f14f99ca-1fea-eb11-9dee-9828a61840c3\"},\r\n    \"RelatedEntityType\": {\"value\": \"PX.Objects.CR.CRCase\"},\r\n    \"ActivityDetails\":{\"value\": \"Automated Test\"}\r\n}"
+								},
+								"url": {
+									"raw": "{{EndpointURL}}Activity",
+									"host": [
+										"{{EndpointURL}}Activity"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create an Activity that is Linked to a Case: 2 Create an Activity",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"Summary\": {\"value\": \"Automated Test\"},\r\n    \"Type\": {\"value\": \"M\"},\r\n    \"RelatedEntityNoteID\": {\"value\": \"f14f99ca-1fea-eb11-9dee-9828a61840c3\"},\r\n    \"RelatedEntityType\": {\"value\": \"PX.Objects.CR.CRCase\"},\r\n    \"ActivityDetails\":{\"value\": \"Automated Test\"}\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}Activity",
+											"host": [
+												"{{EndpointURL}}Activity"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=; expires=Sun, 11-Jul-2021 13:32:10 GMT; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 21 Jul 2021 13:32:10 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "695"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"6858b106-28ea-eb11-9dee-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"Body\": {},\n    \"CreatedByID\": {\n        \"value\": \"admin\"\n    },\n    \"CreatedDateTime\": {\n        \"value\": \"2021-07-21T16:32:09.12+03:00\"\n    },\n    \"Date\": {\n        \"value\": \"2021-07-21T16:32:08.8221447+03:00\"\n    },\n    \"Internal\": {\n        \"value\": false\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-07-21T16:32:09.12+03:00\"\n    },\n    \"NoteID\": {\n        \"value\": \"6858b106-28ea-eb11-9dee-9828a61840c3\"\n    },\n    \"Owner\": {},\n    \"RelatedEntityDescription\": {\n        \"value\": \"000012, Some Subject\"\n    },\n    \"RelatedEntityNoteID\": {\n        \"value\": \"f14f99ca-1fea-eb11-9dee-9828a61840c3\"\n    },\n    \"RelatedEntityType\": {\n        \"value\": \"PX.Objects.CR.CRCase\"\n    },\n    \"Status\": {\n        \"value\": \"Completed\"\n    },\n    \"Summary\": {\n        \"value\": \"Automated Test\"\n    },\n    \"Task\": {},\n    \"Type\": {\n        \"value\": \"M\"\n    },\n    \"Workgroup\": {},\n    \"custom\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "Create an Activity that is Linked to a Customer: 1 Create a Customer",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"CustomerID\": {\"value\": \"Cust01\"},\r\n    \"CustomerName\": {\"value\": \"Custumer 01\"},\r\n    \"CustomerClass\": {\"value\": \"DEFAULT\"}\r\n}"
+								},
+								"url": {
+									"raw": "{{EndpointURL}}Customer",
+									"host": [
+										"{{EndpointURL}}Customer"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create an Activity that is Linked to a Customer: 1 Create a Customer",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"CustomerID\": {\"value\": \"Cust01\"},\r\n    \"CustomerName\": {\"value\": \"Custumer 01\"},\r\n    \"CustomerClass\": {\"value\": \"DEFAULT\"}\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}Customer",
+											"host": [
+												"{{EndpointURL}}Customer"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898EE9D11EBEA35D60072E7; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:5300+sc:~/entity/default/20.200.001/customer+start:637624770519452007+tg:; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 21 Jul 2021 15:10:57 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1426"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"f37200d6-35ea-eb11-9dee-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": {\n        \"value\": \"\"\n    },\n    \"AccountRef\": {},\n    \"AutoApplyPayments\": {\n        \"value\": false\n    },\n    \"BillingAddressOverride\": {\n        \"value\": false\n    },\n    \"BillingContactOverride\": {\n        \"value\": false\n    },\n    \"CreatedDateTime\": {\n        \"value\": \"2021-07-21T18:10:54.81+03:00\"\n    },\n    \"CurrencyID\": {\n        \"value\": \"USD\"\n    },\n    \"CurrencyRateType\": {},\n    \"CustomerClass\": {\n        \"value\": \"DEFAULT\"\n    },\n    \"CustomerID\": {\n        \"value\": \"CUST01\"\n    },\n    \"CustomerName\": {\n        \"value\": \"Custumer 01\"\n    },\n    \"EnableCurrencyOverride\": {\n        \"value\": false\n    },\n    \"EnableRateOverride\": {\n        \"value\": false\n    },\n    \"EnableWriteOffs\": {\n        \"value\": false\n    },\n    \"FOBPoint\": {},\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-07-21T18:10:54.81+03:00\"\n    },\n    \"LeadTimedays\": {},\n    \"LocationName\": {\n        \"value\": \"Primary Location\"\n    },\n    \"MultiCurrencyStatements\": {\n        \"value\": false\n    },\n    \"OrderPriority\": {\n        \"value\": 0\n    },\n    \"ParentRecord\": {},\n    \"PriceClassID\": {},\n    \"PrintInvoices\": {\n        \"value\": false\n    },\n    \"PrintStatements\": {\n        \"value\": true\n    },\n    \"ResidentialDelivery\": {\n        \"value\": false\n    },\n    \"SaturdayDelivery\": {\n        \"value\": false\n    },\n    \"SendInvoicesbyEmail\": {\n        \"value\": false\n    },\n    \"SendStatementsbyEmail\": {\n        \"value\": false\n    },\n    \"ShippingAddressOverride\": {\n        \"value\": false\n    },\n    \"ShippingBranch\": {},\n    \"ShippingContactOverride\": {\n        \"value\": false\n    },\n    \"ShippingRule\": {\n        \"value\": \"Back Order Allowed\"\n    },\n    \"ShippingTerms\": {},\n    \"ShippingZoneID\": {},\n    \"ShipVia\": {},\n    \"StatementCycleID\": {\n        \"value\": \"EOM\"\n    },\n    \"StatementType\": {\n        \"value\": \"Open Item\"\n    },\n    \"Status\": {\n        \"value\": \"Active\"\n    },\n    \"TaxRegistrationID\": {},\n    \"TaxZone\": {},\n    \"Terms\": {\n        \"value\": \"30D\"\n    },\n    \"WarehouseID\": {},\n    \"WriteOffLimit\": {\n        \"value\": 0\n    },\n    \"custom\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "Create an Activity that is Linked to a Customer: 2 Create an Activity",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"Summary\": {\"value\": \"Automated Test 2\"},\r\n    \"Type\": {\"value\": \"M\"},\r\n    \"RelatedEntityNoteID\": {\"value\": \"f37200d6-35ea-eb11-9dee-9828a61840c3\"},\r\n    \"RelatedEntityType\": {\"value\": \"PX.Objects.AR.Customer\"},\r\n    \"ActivityDetails\":{\"value\": \"Automated Test 2\"}\r\n}"
+								},
+								"url": {
+									"raw": "{{EndpointURL}}Activity",
+									"host": [
+										"{{EndpointURL}}Activity"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create an Activity that is Linked to a Customer: 2 Create an Activity",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"Summary\": {\"value\": \"Automated Test 2\"},\r\n    \"Type\": {\"value\": \"M\"},\r\n    \"RelatedEntityNoteID\": {\"value\": \"f37200d6-35ea-eb11-9dee-9828a61840c3\"},\r\n    \"RelatedEntityType\": {\"value\": \"PX.Objects.AR.Customer\"},\r\n    \"ActivityDetails\":{\"value\": \"Automated Test 2\"}\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}Activity",
+											"host": [
+												"{{EndpointURL}}Activity"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898EE9D11EBEA390E477CAC; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:1451+sc:~/entity/default/20.200.001/activity+start:637624784348533548+tg:; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 21 Jul 2021 15:33:56 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "699"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"ad7c470e-39ea-eb11-9dee-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"Body\": {},\n    \"CreatedByID\": {\n        \"value\": \"admin\"\n    },\n    \"CreatedDateTime\": {\n        \"value\": \"2021-07-21T18:33:55.587+03:00\"\n    },\n    \"Date\": {\n        \"value\": \"2021-07-21T18:33:55.232814+03:00\"\n    },\n    \"Internal\": {\n        \"value\": false\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-07-21T18:33:55.587+03:00\"\n    },\n    \"NoteID\": {\n        \"value\": \"ad7c470e-39ea-eb11-9dee-9828a61840c3\"\n    },\n    \"Owner\": {},\n    \"RelatedEntityDescription\": {\n        \"value\": \"CUST01, Custumer 01\"\n    },\n    \"RelatedEntityNoteID\": {\n        \"value\": \"f37200d6-35ea-eb11-9dee-9828a61840c3\"\n    },\n    \"RelatedEntityType\": {\n        \"value\": \"PX.Objects.AR.Customer\"\n    },\n    \"Status\": {\n        \"value\": \"Completed\"\n    },\n    \"Summary\": {\n        \"value\": \"Automated Test 2\"\n    },\n    \"Task\": {},\n    \"Type\": {\n        \"value\": \"M\"\n    },\n    \"Workgroup\": {},\n    \"custom\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "Create an Activity that is Linked to a Lead: 1 Create a Lead",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"FirstName\": {\"value\": \"Brent\"},\r\n    \"LastName\": {\"value\": \"Edds\"},\r\n    \"Email\": {\"value\": \"brent.edds.test27@avantehs.com\"}\r\n}"
+								},
+								"url": {
+									"raw": "{{EndpointURL}}Lead",
+									"host": [
+										"{{EndpointURL}}Lead"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create an Activity that is Linked to a Lead: 1 Create a Lead",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"FirstName\": {\"value\": \"Brent\"},\r\n    \"LastName\": {\"value\": \"Edds\"},\r\n    \"Email\": {\"value\": \"brent.edds.test27@avantehs.com\"}\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}Lead",
+											"host": [
+												"{{EndpointURL}}Lead"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898EE9D11EBEA3A1ACECB34; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:14447+sc:~/entity/default/20.200.001/lead+start:637624788853694900+tg:; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 21 Jul 2021 15:41:39 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1279"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"23561922-3aea-eb11-9dee-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"Active\": {\n        \"value\": true\n    },\n    \"BusinessAccount\": {},\n    \"CompanyName\": {},\n    \"ContactMethod\": {\n        \"value\": \"Any\"\n    },\n    \"ConvertedBy\": {},\n    \"Description\": {},\n    \"DoNotCall\": {\n        \"value\": false\n    },\n    \"DoNotEmail\": {\n        \"value\": false\n    },\n    \"DoNotFax\": {\n        \"value\": false\n    },\n    \"DoNotMail\": {\n        \"value\": false\n    },\n    \"Duplicate\": {\n        \"value\": \"Validated\"\n    },\n    \"DuplicateFound\": {\n        \"value\": false\n    },\n    \"Email\": {\n        \"value\": \"brent.edds.test27@avantehs.com\"\n    },\n    \"Fax\": {},\n    \"FaxType\": {\n        \"value\": \"Fax\"\n    },\n    \"FirstName\": {\n        \"value\": \"Brent\"\n    },\n    \"JobTitle\": {},\n    \"LanguageOrLocale\": {},\n    \"LastIncomingActivity\": {},\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-07-21T18:41:39.627+03:00\"\n    },\n    \"LastName\": {\n        \"value\": \"Edds\"\n    },\n    \"LastOutgoingActivity\": {},\n    \"LeadClass\": {\n        \"value\": \"BAKERY\"\n    },\n    \"LeadDisplayName\": {\n        \"value\": \"Brent Edds\"\n    },\n    \"LeadID\": {\n        \"value\": 100222\n    },\n    \"NoMarketing\": {\n        \"value\": false\n    },\n    \"NoMassMail\": {\n        \"value\": false\n    },\n    \"NoteID\": {\n        \"value\": \"23561922-3aea-eb11-9dee-9828a61840c3\"\n    },\n    \"Owner\": {},\n    \"OwnerEmployeeName\": {},\n    \"ParentAccount\": {},\n    \"Phone1\": {},\n    \"Phone1Type\": {\n        \"value\": \"Business 1\"\n    },\n    \"Phone2\": {},\n    \"Phone2Type\": {\n        \"value\": \"Cell\"\n    },\n    \"Phone3\": {},\n    \"Phone3Type\": {\n        \"value\": \"Home\"\n    },\n    \"QualificationDate\": {},\n    \"Reason\": {\n        \"value\": \"Created\"\n    },\n    \"RefContactID\": {},\n    \"Source\": {},\n    \"SourceCampaign\": {},\n    \"Status\": {\n        \"value\": \"New\"\n    },\n    \"Title\": {},\n    \"WebSite\": {},\n    \"Workgroup\": {},\n    \"WorkgroupDescription\": {},\n    \"custom\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "Create an Activity that is Linked to a Lead: 2 Create an Activity",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"Summary\": {\"value\": \"Automated Test 3\"},\r\n    \"Type\": {\"value\": \"M\"},\r\n    \"RelatedEntityNoteID\": {\"value\": \"23561922-3aea-eb11-9dee-9828a61840c3\"},\r\n    \"RelatedEntityType\": {\"value\": \"PX.Objects.CR.CRLead\"},\r\n    \"ActivityDetails\":{\"value\": \"Automated Test 3\"}\r\n}"
+								},
+								"url": {
+									"raw": "{{EndpointURL}}Activity",
+									"host": [
+										"{{EndpointURL}}Activity"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create an Activity that is Linked to a Lead: 2 Create an Activity",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"Summary\": {\"value\": \"Automated Test 3\"},\r\n    \"Type\": {\"value\": \"M\"},\r\n    \"RelatedEntityNoteID\": {\"value\": \"23561922-3aea-eb11-9dee-9828a61840c3\"},\r\n    \"RelatedEntityType\": {\"value\": \"PX.Objects.CR.CRLead\"},\r\n    \"ActivityDetails\":{\"value\": \"Automated Test 3\"}\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}Activity",
+											"host": [
+												"{{EndpointURL}}Activity"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898EE9D11EBEA3B7B0FA031; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:10213+sc:~/entity/default/20.200.001/activity+start:637624794829006390+tg:; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 21 Jul 2021 15:51:33 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "689"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"5d600c82-3bea-eb11-9dee-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"Body\": {},\n    \"CreatedByID\": {\n        \"value\": \"admin\"\n    },\n    \"CreatedDateTime\": {\n        \"value\": \"2021-07-21T18:51:29.557+03:00\"\n    },\n    \"Date\": {\n        \"value\": \"2021-07-21T18:51:28.0771277+03:00\"\n    },\n    \"Internal\": {\n        \"value\": false\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-07-21T18:51:29.557+03:00\"\n    },\n    \"NoteID\": {\n        \"value\": \"5d600c82-3bea-eb11-9dee-9828a61840c3\"\n    },\n    \"Owner\": {},\n    \"RelatedEntityDescription\": {\n        \"value\": \"Brent Edds\"\n    },\n    \"RelatedEntityNoteID\": {\n        \"value\": \"23561922-3aea-eb11-9dee-9828a61840c3\"\n    },\n    \"RelatedEntityType\": {\n        \"value\": \"PX.Objects.CR.CRLead\"\n    },\n    \"Status\": {\n        \"value\": \"Completed\"\n    },\n    \"Summary\": {\n        \"value\": \"Automated Test 3\"\n    },\n    \"Task\": {},\n    \"Type\": {\n        \"value\": \"M\"\n    },\n    \"Workgroup\": {},\n    \"custom\": {}\n}"
+								}
+							]
+						}
+					]
 				},
 				{
 					"name": "Bill",
