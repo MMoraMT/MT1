@@ -3078,7 +3078,7 @@
 					"name": "CompaniesStructure",
 					"item": [
 						{
-							"name": "Retrieval of Ledgers, Companies, and Branches 2: Retrieval of Companies Structure",
+							"name": "Retrieve the Companies' Structure",
 							"request": {
 								"method": "PUT",
 								"header": [
@@ -3113,7 +3113,7 @@
 							},
 							"response": [
 								{
-									"name": "Retrieval of Ledgers, Companies, and Branches 2: Retrieval of Companies Structure",
+									"name": "Retrieve the Companies' Structure",
 									"originalRequest": {
 										"method": "PUT",
 										"header": [
@@ -3163,23 +3163,31 @@
 										},
 										{
 											"key": "Set-Cookie",
-											"value": "requestid=C34018A62898D29D11EB6C738D5F0489; path=/"
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
 										},
 										{
 											"key": "Set-Cookie",
-											"value": "requeststat=+st:2453+sc:~/entity/default/20.200.001/companiesstructure+start:637486497123785481+tg:; path=/"
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898F19D11EBF49D403A1049; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:12437+sc:~/entity/default/20.200.001/companiesstructure+start:637636209799521993+tg:; path=/"
 										},
 										{
 											"key": "Date",
-											"value": "Thu, 11 Feb 2021 14:15:14 GMT"
+											"value": "Tue, 03 Aug 2021 20:56:32 GMT"
 										},
 										{
 											"key": "Content-Length",
-											"value": "2727"
+											"value": "2735"
 										}
 									],
 									"cookie": [],
-									"body": "{\n    \"id\": \"ca26a0e2-0301-4aed-8784-2021283c343e\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"Results\": [\n        {\n            \"id\": \"1c54b58b-54db-e811-b816-00155d408001\",\n            \"rowNumber\": 1,\n            \"note\": {\n                \"value\": \"\"\n            },\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {\n                \"value\": \"US\"\n            },\n            \"BranchID\": {\n                \"value\": \"RETAIL\"\n            },\n            \"BranchName\": {\n                \"value\": \"SweetLife Store\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"SWEETLIFE\"\n            },\n            \"CompanyName\": {\n                \"value\": \"SweetLife Fruits & Jams\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Not Requiring Balancing\"\n            },\n            \"custom\": {}\n        },\n        {\n            \"id\": \"1c54b58b-54db-e811-b816-00155d408001\",\n            \"rowNumber\": 2,\n            \"note\": {\n                \"value\": \"\"\n            },\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {\n                \"value\": \"US\"\n            },\n            \"BranchID\": {\n                \"value\": \"HEADOFFICE\"\n            },\n            \"BranchName\": {\n                \"value\": \"SweetLife Head Office and Wholesale Center\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"SWEETLIFE\"\n            },\n            \"CompanyName\": {\n                \"value\": \"SweetLife Fruits & Jams\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Not Requiring Balancing\"\n            },\n            \"custom\": {}\n        },\n        {\n            \"id\": \"1c54b58b-54db-e811-b816-00155d408001\",\n            \"rowNumber\": 3,\n            \"note\": {\n                \"value\": \"\"\n            },\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {\n                \"value\": \"US\"\n            },\n            \"BranchID\": {\n                \"value\": \"SWEETEQUIP\"\n            },\n            \"BranchName\": {\n                \"value\": \"Service and Equipment Sales Center\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"SWEETLIFE\"\n            },\n            \"CompanyName\": {\n                \"value\": \"SweetLife Fruits & Jams\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Not Requiring Balancing\"\n            },\n            \"custom\": {}\n        },\n        {\n            \"id\": \"f935876a-3405-e911-b818-00155d408001\",\n            \"rowNumber\": 4,\n            \"note\": null,\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {},\n            \"BranchID\": {\n                \"value\": \"MHEAD\"\n            },\n            \"BranchName\": {\n                \"value\": \"Muffins Head Office & Wholesale Center\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"MUFFINS\"\n            },\n            \"CompanyName\": {\n                \"value\": \"Muffins & Cakes\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Requiring Balancing\"\n            },\n            \"custom\": {}\n        },\n        {\n            \"id\": \"f935876a-3405-e911-b818-00155d408001\",\n            \"rowNumber\": 5,\n            \"note\": null,\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {},\n            \"BranchID\": {\n                \"value\": \"MRETAIL\"\n            },\n            \"BranchName\": {\n                \"value\": \"Muffins Retail Shop\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"MUFFINS\"\n            },\n            \"CompanyName\": {\n                \"value\": \"Muffins & Cakes\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Requiring Balancing\"\n            },\n            \"custom\": {}\n        },\n        {\n            \"id\": \"a5ac5eb0-5010-eb11-b835-00155d408001\",\n            \"rowNumber\": 6,\n            \"note\": null,\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {\n                \"value\": \"US\"\n            },\n            \"BranchID\": {\n                \"value\": \"TBGROUP\"\n            },\n            \"BranchName\": {\n                \"value\": \"ToadGreen Building Group\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"TOADGREEN\"\n            },\n            \"CompanyName\": {\n                \"value\": \"ToadGreen Building Group\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Not Requiring Balancing\"\n            },\n            \"custom\": {}\n        }\n    ],\n    \"custom\": {}\n}"
+									"body": "{\n    \"id\": \"4085f819-18a5-4846-a387-9c7872fa8c4d\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"Results\": [\n        {\n            \"id\": \"1c54b58b-54db-e811-b816-00155d408001\",\n            \"rowNumber\": 1,\n            \"note\": {\n                \"value\": \"\"\n            },\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {\n                \"value\": \"US\"\n            },\n            \"BranchID\": {\n                \"value\": \"RETAIL\"\n            },\n            \"BranchName\": {\n                \"value\": \"SweetLife Store\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"SWEETLIFE\"\n            },\n            \"CompanyName\": {\n                \"value\": \"SweetLife Fruits & Jams\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Not Requiring Balancing\"\n            },\n            \"custom\": {}\n        },\n        {\n            \"id\": \"1c54b58b-54db-e811-b816-00155d408001\",\n            \"rowNumber\": 2,\n            \"note\": {\n                \"value\": \"\"\n            },\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {\n                \"value\": \"US\"\n            },\n            \"BranchID\": {\n                \"value\": \"HEADOFFICE\"\n            },\n            \"BranchName\": {\n                \"value\": \"SweetLife Head Office and Wholesale Center\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"SWEETLIFE\"\n            },\n            \"CompanyName\": {\n                \"value\": \"SweetLife Fruits & Jams\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Not Requiring Balancing\"\n            },\n            \"custom\": {}\n        },\n        {\n            \"id\": \"1c54b58b-54db-e811-b816-00155d408001\",\n            \"rowNumber\": 3,\n            \"note\": {\n                \"value\": \"\"\n            },\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {\n                \"value\": \"US\"\n            },\n            \"BranchID\": {\n                \"value\": \"SWEETEQUIP\"\n            },\n            \"BranchName\": {\n                \"value\": \"Service and Equipment Sales Center\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"SWEETLIFE\"\n            },\n            \"CompanyName\": {\n                \"value\": \"SweetLife Fruits & Jams\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Not Requiring Balancing\"\n            },\n            \"custom\": {}\n        },\n        {\n            \"id\": \"f935876a-3405-e911-b818-00155d408001\",\n            \"rowNumber\": 4,\n            \"note\": null,\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {},\n            \"BranchID\": {\n                \"value\": \"MHEAD\"\n            },\n            \"BranchName\": {\n                \"value\": \"Muffins Head Office & Wholesale Center\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"MUFFINS\"\n            },\n            \"CompanyName\": {\n                \"value\": \"Muffins & Cakes\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Requiring Balancing\"\n            },\n            \"custom\": {}\n        },\n        {\n            \"id\": \"f935876a-3405-e911-b818-00155d408001\",\n            \"rowNumber\": 5,\n            \"note\": null,\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {},\n            \"BranchID\": {\n                \"value\": \"MRETAIL\"\n            },\n            \"BranchName\": {\n                \"value\": \"Muffins Retail Shop\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"MUFFINS\"\n            },\n            \"CompanyName\": {\n                \"value\": \"Muffins & Cakes\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Requiring Balancing\"\n            },\n            \"custom\": {}\n        },\n        {\n            \"id\": \"a5ac5eb0-5010-eb11-b835-00155d408001\",\n            \"rowNumber\": 6,\n            \"note\": {\n                \"value\": \"\"\n            },\n            \"BaseCurrencyID\": {\n                \"value\": \"USD\"\n            },\n            \"BranchCountry\": {\n                \"value\": \"US\"\n            },\n            \"BranchID\": {\n                \"value\": \"TBGROUP\"\n            },\n            \"BranchName\": {\n                \"value\": \"ToadGreen Building Group\"\n            },\n            \"BranchStatus\": {\n                \"value\": true\n            },\n            \"CompanyID\": {\n                \"value\": \"TOADGREEN\"\n            },\n            \"CompanyName\": {\n                \"value\": \"ToadGreen Building Group\"\n            },\n            \"CompanyStatus\": {\n                \"value\": true\n            },\n            \"CompanyType\": {\n                \"value\": \"With Branches Not Requiring Balancing\"\n            },\n            \"custom\": {}\n        }\n    ],\n    \"custom\": {}\n}"
 								}
 							]
 						}
@@ -5083,7 +5091,7 @@
 						{
 							"name": "Invoke Project Billing for Selected Projects",
 							"request": {
-								"method": "PUT",
+								"method": "POST",
 								"header": [
 									{
 										"key": "Accept",
@@ -5098,7 +5106,197 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": ""
+									"raw": "{\r\n  \"entity\" : \r\n  {\r\n    \"id\": \"cf6a29b4-1533-47ac-acfa-058d28cf8aa0\",\r\n    \"Details\": [\r\n        {\r\n            \"id\": \"c0ee1c30-594b-4a4d-8cc6-1988b8108577\",\r\n            \"Selected\": {\r\n                \"value\": true\r\n            }\r\n        }\r\n    ]\r\n  }\r\n}"
+								},
+								"url": {
+									"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcess",
+									"host": [
+										"{{EndpointURL}}ProjectBilling"
+									],
+									"path": [
+										"ProjectBillingProcess"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Invoke Project Billing for Selected Projects",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"entity\" : \r\n  {\r\n    \"id\": \"cf6a29b4-1533-47ac-acfa-058d28cf8aa0\",\r\n    \"Details\": [\r\n        {\r\n            \"id\": \"c0ee1c30-594b-4a4d-8cc6-1988b8108577\",\r\n            \"Selected\": {\r\n                \"value\": true\r\n            }\r\n        }\r\n    ]\r\n  }\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcess",
+											"host": [
+												"{{EndpointURL}}ProjectBilling"
+											],
+											"path": [
+												"ProjectBillingProcess"
+											]
+										}
+									},
+									"status": "Accepted",
+									"code": 202,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Location",
+											"value": "/AcumaticaERP/entity/Default/20.200.001/ProjectBilling/ProjectBillingProcess/status/168de2ca-a992-4c35-8646-4616e607d9f4"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898F19D11EBF536E5570291; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:1957+sc:~/entity/default/20.200.001/projectbilling/projectbillingprocess+start:637636869699655953+tg:; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 04 Aug 2021 15:16:11 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "0"
+										}
+									],
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Invoke Project Billing for Selected Projects: Check the Operation Status",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcess/status/168de2ca-a992-4c35-8646-4616e607d9f4",
+									"host": [
+										"{{EndpointURL}}ProjectBilling"
+									],
+									"path": [
+										"ProjectBillingProcess",
+										"status",
+										"168de2ca-a992-4c35-8646-4616e607d9f4"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Invoke Project Billing for Selected Projects: Check the Operation Status",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcess/status/168de2ca-a992-4c35-8646-4616e607d9f4",
+											"host": [
+												"{{EndpointURL}}ProjectBilling"
+											],
+											"path": [
+												"ProjectBillingProcess",
+												"status",
+												"168de2ca-a992-4c35-8646-4616e607d9f4"
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Location",
+											"value": "/AcumaticaERP/entity/Default/20.200.001/ProjectBilling/cf6a29b4-1533-47ac-acfa-058d28cf8aa0"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 04 Aug 2021 15:19:07 GMT"
+										}
+									],
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Invoke Project Billing for All Projects Available for Billing",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"entity\" : \r\n  {\r\n  }\r\n}"
 								},
 								"url": {
 									"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcessAll",
@@ -5110,7 +5308,165 @@
 									]
 								}
 							},
-							"response": []
+							"response": [
+								{
+									"name": "Invoke Project Billing for All Projects Available for Billing",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"entity\" : \r\n  {\r\n  }\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcessAll",
+											"host": [
+												"{{EndpointURL}}ProjectBilling"
+											],
+											"path": [
+												"ProjectBillingProcessAll"
+											]
+										}
+									},
+									"status": "Accepted",
+									"code": 202,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Location",
+											"value": "/AcumaticaERP/entity/Default/20.200.001/ProjectBilling/ProjectBillingProcessAll/status/a97a21dc-45bf-41bd-b130-4ba72550582b"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898F19D11EBF5380234D689; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:361+sc:~/entity/default/20.200.001/projectbilling/projectbillingprocessall+start:637636874478923017+tg:; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 04 Aug 2021 15:24:08 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "0"
+										}
+									],
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
+							"name": "Invoke Project Billing for All Projects Available for Billing: Check the Operation Status",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcessAll/status/a97a21dc-45bf-41bd-b130-4ba72550582b",
+									"host": [
+										"{{EndpointURL}}ProjectBilling"
+									],
+									"path": [
+										"ProjectBillingProcessAll",
+										"status",
+										"a97a21dc-45bf-41bd-b130-4ba72550582b"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Invoke Project Billing for All Projects Available for Billing: Check the Operation Status",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"url": {
+											"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcessAll/status/a97a21dc-45bf-41bd-b130-4ba72550582b",
+											"host": [
+												"{{EndpointURL}}ProjectBilling"
+											],
+											"path": [
+												"ProjectBillingProcessAll",
+												"status",
+												"a97a21dc-45bf-41bd-b130-4ba72550582b"
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Location",
+											"value": "/AcumaticaERP/entity/Default/20.200.001/ProjectBilling/cf6a29b4-1533-47ac-acfa-058d28cf8aa0"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 04 Aug 2021 15:25:53 GMT"
+										}
+									],
+									"cookie": [],
+									"body": null
+								}
+							]
 						}
 					]
 				},
@@ -6260,6 +6616,109 @@
 							]
 						},
 						{
+							"name": "Apply Discounts to a Sales Order",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"entity\" :\r\n    {\r\n        \"OrderType\" : {\"value\" : \"SO\"},\r\n        \"OrderNbr\" : {\"value\" : \"000070\"}\r\n    },\r\n    \"parameters\":\r\n    {\r\n    }\r\n}"
+								},
+								"url": {
+									"raw": "{{EndpointURL}}SalesOrder/AutoRecalculateDiscounts",
+									"host": [
+										"{{EndpointURL}}SalesOrder"
+									],
+									"path": [
+										"AutoRecalculateDiscounts"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Apply Discounts to a Sales Order",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"entity\" :\r\n    {\r\n        \"OrderType\" : {\"value\" : \"SO\"},\r\n        \"OrderNbr\" : {\"value\" : \"000070\"}\r\n    },\r\n    \"parameters\":\r\n    {\r\n    }\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}SalesOrder/AutoRecalculateDiscounts",
+											"host": [
+												"{{EndpointURL}}SalesOrder"
+											],
+											"path": [
+												"AutoRecalculateDiscounts"
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Location",
+											"value": "/AcumaticaERP/entity/Default/20.200.001/SalesOrder/d8cec2e9-21f5-eb11-9df1-9828a61840c3"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898F19D11EBF522BFDF2216; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:3945+sc:~/entity/default/20.200.001/salesorder/autorecalculatediscounts+start:637636783171696790+tg:; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Wed, 04 Aug 2021 12:52:01 GMT"
+										}
+									],
+									"cookie": [],
+									"body": null
+								}
+							]
+						},
+						{
 							"name": "Creation of a Sales Order with Payments",
 							"request": {
 								"method": "PUT",
@@ -6542,7 +7001,219 @@
 				},
 				{
 					"name": "TimeEntry",
-					"item": []
+					"item": [
+						{
+							"name": "Write Employee Time Activities",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"Summary\" : {\"value\" : \"Time entry summary\"},\r\n  \"Date\" : {\"value\" : \"2020-08-17T05:50:43.233\" },\r\n  \"Time\" : {\"value\" : \"2020-08-17T05:50:43.233\" },\r\n  \"Employee\" : {\"value\" : \"EP00000002\" },\r\n  \"ProjectID\" : {\"value\" : \"TOMYUM1\" },\r\n  \"ProjectTaskID\" : {\"value\" : \"PHASE1\" },\r\n  \"CostCode\" : {\"value\" : \"00-000\" },\r\n  \"EarningType\" : {\"value\" : \"RG\" },\r\n  \"TimeSpent\" : {\"value\" : \"01:30\" },\r\n  \"BillableTime\" : {\"value\" : \"00:30\" }\r\n}"
+								},
+								"url": {
+									"raw": "{{EndpointURL}}TimeEntry",
+									"host": [
+										"{{EndpointURL}}TimeEntry"
+									]
+								},
+								"description": "This example shows how to specify the time spent on the tasks of projects. This process is described in [Time Entry](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=847b54c3-116e-47b1-89af-14a19cc5855a)."
+							},
+							"response": [
+								{
+									"name": "Write Employee Time Activities",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Accept",
+												"type": "text",
+												"value": "application/json"
+											},
+											{
+												"key": "Content-Type",
+												"type": "text",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"Summary\" : {\"value\" : \"Time entry summary\"},\r\n  \"Date\" : {\"value\" : \"2020-08-17T05:50:43.233\" },\r\n  \"Time\" : {\"value\" : \"2020-08-17T05:50:43.233\" },\r\n  \"Employee\" : {\"value\" : \"EP00000002\" },\r\n  \"ProjectID\" : {\"value\" : \"TOMYUM1\" },\r\n  \"ProjectTaskID\" : {\"value\" : \"PHASE1\" },\r\n  \"CostCode\" : {\"value\" : \"00-000\" },\r\n  \"EarningType\" : {\"value\" : \"RG\" },\r\n  \"TimeSpent\" : {\"value\" : \"01:30\" },\r\n  \"BillableTime\" : {\"value\" : \"00:30\" }\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}TimeEntry",
+											"host": [
+												"{{EndpointURL}}TimeEntry"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=3; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=3; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898F19D11EBF5F6CEE895EE; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:8737+sc:~/entity/default/20.200.001/timeentry+start:637637693957041262+tg:; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 05 Aug 2021 14:10:04 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "831"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"f095e8ce-f6f5-eb11-9df1-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"ApprovalStatus\": {\n        \"value\": \"Open\"\n    },\n    \"Approver\": {},\n    \"Billable\": {\n        \"value\": true\n    },\n    \"BillableOvertime\": {\n        \"value\": \"00:00\"\n    },\n    \"BillableTime\": {\n        \"value\": \"00:30\"\n    },\n    \"CertifiedJob\": {\n        \"value\": false\n    },\n    \"CostCode\": {\n        \"value\": \"00000\"\n    },\n    \"CostRate\": {},\n    \"Date\": {\n        \"value\": \"2020-08-17T00:00:00+03:00\"\n    },\n    \"EarningType\": {\n        \"value\": \"RG\"\n    },\n    \"Employee\": {\n        \"value\": \"EP00000002\"\n    },\n    \"ExternalRefNbr\": {},\n    \"LaborItem\": {\n        \"value\": \"CONSULTSR\"\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-08-05T10:10:04.31+03:00\"\n    },\n    \"Overtime\": {\n        \"value\": \"00:00\"\n    },\n    \"ProjectID\": {\n        \"value\": \"TOMYUM1\"\n    },\n    \"ProjectTaskID\": {\n        \"value\": \"PHASE1\"\n    },\n    \"Summary\": {\n        \"value\": \"Time entry summary\"\n    },\n    \"Time\": {\n        \"value\": \"1900-01-01T05:50:00+03:00\"\n    },\n    \"TimeEntryID\": {\n        \"value\": \"f095e8ce-f6f5-eb11-9df1-9828a61840c3\"\n    },\n    \"TimeSpent\": {\n        \"value\": \"01:30\"\n    },\n    \"UnionLocal\": {},\n    \"WCCCode\": {},\n    \"custom\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "Search for Time Entries by Date",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{EndpointURL}}TimeEntry?$filter=cf.DateTime(f='Items.Date') ge datetimeoffset'2020-08-17' and cf.DateTime(f='Items.Date') le datetimeoffset'2020-08-18T23%3A59%3A59.999%2B04%3A00'&$select=Date,ProjectID,TimeSpent,BillableTime",
+									"host": [
+										"{{EndpointURL}}TimeEntry"
+									],
+									"query": [
+										{
+											"key": "$filter",
+											"value": "cf.DateTime(f='Items.Date') ge datetimeoffset'2020-08-17' and cf.DateTime(f='Items.Date') le datetimeoffset'2020-08-18T23%3A59%3A59.999%2B04%3A00'"
+										},
+										{
+											"key": "$select",
+											"value": "Date,ProjectID,TimeSpent,BillableTime"
+										}
+									]
+								},
+								"description": "This example shows how to search for the time entries entered on particular date. This process is described in [Search for Time Entries by Date](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=c7576634-c730-42fd-9cc7-03aa85164bb9)."
+							},
+							"response": [
+								{
+									"name": "Search for Time Entries by Date",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"type": "text",
+												"value": "application/json"
+											},
+											{
+												"key": "Content-Type",
+												"type": "text",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{EndpointURL}}TimeEntry?$filter=cf.DateTime(f='Items.Date') ge datetimeoffset'2020-08-17' and cf.DateTime(f='Items.Date') le datetimeoffset'2020-08-18T23%3A59%3A59.999%2B04%3A00'&$select=Date,ProjectID,TimeSpent,BillableTime",
+											"host": [
+												"{{EndpointURL}}TimeEntry"
+											],
+											"query": [
+												{
+													"key": "$filter",
+													"value": "cf.DateTime(f='Items.Date') ge datetimeoffset'2020-08-17' and cf.DateTime(f='Items.Date') le datetimeoffset'2020-08-18T23%3A59%3A59.999%2B04%3A00'"
+												},
+												{
+													"key": "$select",
+													"value": "Date,ProjectID,TimeSpent,BillableTime"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=2; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 05 Aug 2021 15:14:17 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "310"
+										}
+									],
+									"cookie": [],
+									"body": "[\n    {\n        \"id\": \"f095e8ce-f6f5-eb11-9df1-9828a61840c3\",\n        \"rowNumber\": 1,\n        \"note\": {\n            \"value\": \"\"\n        },\n        \"BillableTime\": {\n            \"value\": \"00:30\"\n        },\n        \"Date\": {\n            \"value\": \"2020-08-17T00:00:00+03:00\"\n        },\n        \"ProjectID\": {\n            \"value\": \"TOMYUM1\"\n        },\n        \"TimeSpent\": {\n            \"value\": \"01:30\"\n        },\n        \"custom\": {\n            \"Items\": {\n                \"Date\": {\n                    \"type\": \"CustomDateTimeField\",\n                    \"value\": \"2020-08-17T12:50:00\"\n                }\n            }\n        }\n    }\n]"
+								}
+							]
+						}
+					]
 				},
 				{
 					"name": "Vendor",
@@ -6552,1957 +7223,8 @@
 					"name": "Scenarios",
 					"item": [
 						{
-							"name": "Inventory and Order Management",
-							"item": [
-								{
-									"name": "Creation of a Purchase Order and Purchase Receipt 1: Creation of a Purchase Order",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"VendorID\": {\r\n        \"value\": \"GOODFRUITS\"\r\n    },\r\n    \"Location\": {\r\n        \"value\": \"MAIN\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"BranchID\": {\r\n                \"value\": \"HEADOFFICE\"\r\n            },\r\n            \"InventoryID\": {\r\n                \"value\": \"APPLES\"\r\n            },\r\n            \"OrderQty\": {\r\n                \"value\": 1\r\n            },\r\n            \"WarehouseID\": {\r\n                \"value\": \"WHOLESALE\"\r\n            },\r\n            \"UOM\": {\r\n                \"value\": \"LB\"\r\n            }\r\n        }\r\n    ]\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}PurchaseOrder?$expand=Details&$select=Branch,CurrencyID,Details/ExtendedCost,Details/InventoryID,Details/LineDescription,Details/OrderNbr,Details/OrderQty,Details/UnitCost,Details/UOM,Details/WarehouseID,Location,OrderNbr,OrderTotal,Status,Type,VendorID",
-											"host": [
-												"{{EndpointURL}}PurchaseOrder"
-											],
-											"query": [
-												{
-													"key": "$expand",
-													"value": "Details"
-												},
-												{
-													"key": "$select",
-													"value": "Branch,CurrencyID,Details/ExtendedCost,Details/InventoryID,Details/LineDescription,Details/OrderNbr,Details/OrderQty,Details/UnitCost,Details/UOM,Details/WarehouseID,Location,OrderNbr,OrderTotal,Status,Type,VendorID"
-												}
-											]
-										},
-										"description": "This example shows how to create a purchase order. This process is described in [Creation of a Purchase Order and Purchase Receipt](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=81e5ec25-09f7-421a-8f80-01b6b71d38c9)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Purchase Order and Purchase Receipt 1: Creation of a Purchase Order",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"value": "application/json",
-														"type": "text"
-													},
-													{
-														"key": "Content-Type",
-														"value": "application/json",
-														"type": "text"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n    \"VendorID\": {\r\n        \"value\": \"GOODFRUITS\"\r\n    },\r\n    \"Location\": {\r\n        \"value\": \"MAIN\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"BranchID\": {\r\n                \"value\": \"HEADOFFICE\"\r\n            },\r\n            \"InventoryID\": {\r\n                \"value\": \"APPLES\"\r\n            },\r\n            \"OrderQty\": {\r\n                \"value\": 1\r\n            },\r\n            \"WarehouseID\": {\r\n                \"value\": \"WHOLESALE\"\r\n            },\r\n            \"UOM\": {\r\n                \"value\": \"LB\"\r\n            }\r\n        }\r\n    ]\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}PurchaseOrder?$expand=Details&$select=Branch,CurrencyID,Details/ExtendedCost,Details/InventoryID,Details/LineDescription,Details/OrderNbr,Details/OrderQty,Details/UnitCost,Details/UOM,Details/WarehouseID,Location,OrderNbr,OrderTotal,Status,Type,VendorID",
-													"host": [
-														"{{EndpointURL}}PurchaseOrder"
-													],
-													"query": [
-														{
-															"key": "$expand",
-															"value": "Details"
-														},
-														{
-															"key": "$select",
-															"value": "Branch,CurrencyID,Details/ExtendedCost,Details/InventoryID,Details/LineDescription,Details/OrderNbr,Details/OrderQty,Details/UnitCost,Details/UOM,Details/WarehouseID,Location,OrderNbr,OrderTotal,Status,Type,VendorID"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898D29D11EB6C5BC3654DDA; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:8582+sc:~/entity/default/20.200.001/purchaseorder+start:637486394950952026+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 11 Feb 2021 11:25:03 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "708"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"e24d65c3-5b6c-eb11-9dd2-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": {\n        \"value\": \"\"\n    },\n    \"Branch\": {\n        \"value\": \"HEADOFFICE\"\n    },\n    \"CurrencyID\": {\n        \"value\": \"USD\"\n    },\n    \"Details\": [\n        {\n            \"id\": \"e94d65c3-5b6c-eb11-9dd2-9828a61840c3\",\n            \"rowNumber\": 1,\n            \"note\": null,\n            \"BranchID\": {\n                \"value\": \"HEADOFFICE\"\n            },\n            \"ExtendedCost\": {\n                \"value\": 2.29\n            },\n            \"InventoryID\": {\n                \"value\": \"APPLES\"\n            },\n            \"LineDescription\": {\n                \"value\": \"Fresh apples 1 lb\"\n            },\n            \"OrderNbr\": {\n                \"value\": \"000037\"\n            },\n            \"OrderQty\": {\n                \"value\": 1\n            },\n            \"UnitCost\": {\n                \"value\": 2.29\n            },\n            \"UOM\": {\n                \"value\": \"LB\"\n            },\n            \"WarehouseID\": {\n                \"value\": \"WHOLESALE\"\n            },\n            \"custom\": {}\n        }\n    ],\n    \"Location\": {\n        \"value\": \"MAIN\"\n    },\n    \"OrderNbr\": {\n        \"value\": \"000037\"\n    },\n    \"OrderTotal\": {\n        \"value\": 2.29\n    },\n    \"Status\": {\n        \"value\": \"On Hold\"\n    },\n    \"Type\": {\n        \"value\": \"Normal\"\n    },\n    \"VendorID\": {\n        \"value\": \"GOODFRUITS\"\n    },\n    \"custom\": {}\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Purchase Order and Purchase Receipt 2: Update of a Purchase Order",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"OrderNbr\": {\r\n        \"value\": \"000037\"\r\n    },\r\n    \"Hold\": {\r\n        \"value\": false\r\n    },\r\n    \"Type\": {\r\n        \"value\": \"Normal\"\r\n    }\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}PurchaseOrder?$select=OrderNbr,OrderTotal,Status,Type,VendorID",
-											"host": [
-												"{{EndpointURL}}PurchaseOrder"
-											],
-											"query": [
-												{
-													"key": "$select",
-													"value": "OrderNbr,OrderTotal,Status,Type,VendorID"
-												}
-											]
-										},
-										"description": "This example shows how to release a purchase order from hold. This process is described in [Creation of a Purchase Order and Purchase Receipt](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=81e5ec25-09f7-421a-8f80-01b6b71d38c9)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Purchase Order and Purchase Receipt 2: Update of a Purchase Order",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"value": "application/json",
-														"type": "text"
-													},
-													{
-														"key": "Content-Type",
-														"value": "application/json",
-														"type": "text"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n    \"OrderNbr\": {\r\n        \"value\": \"000037\"\r\n    },\r\n    \"Hold\": {\r\n        \"value\": false\r\n    },\r\n    \"Type\": {\r\n        \"value\": \"Normal\"\r\n    }\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}PurchaseOrder?$select=OrderNbr,OrderTotal,Status,Type,VendorID",
-													"host": [
-														"{{EndpointURL}}PurchaseOrder"
-													],
-													"query": [
-														{
-															"key": "$select",
-															"value": "OrderNbr,OrderTotal,Status,Type,VendorID"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898D29D11EB6C5BEC0A5490; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:3119+sc:~/entity/default/20.200.001/purchaseorder+start:637486395632855824+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 11 Feb 2021 11:26:06 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "260"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"e24d65c3-5b6c-eb11-9dd2-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": {\n        \"value\": \"\"\n    },\n    \"Hold\": {\n        \"value\": false\n    },\n    \"OrderNbr\": {\n        \"value\": \"000037\"\n    },\n    \"OrderTotal\": {\n        \"value\": 2.29\n    },\n    \"Status\": {\n        \"value\": \"Open\"\n    },\n    \"Type\": {\n        \"value\": \"Normal\"\n    },\n    \"VendorID\": {\n        \"value\": \"GOODFRUITS\"\n    },\n    \"custom\": {}\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Purchase Order and Purchase Receipt 3: Creation of a Purchase Receipt",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"VendorID\": {\r\n        \"value\": \"GOODFRUITS\"\r\n    },\r\n    \"Location\": {\r\n        \"value\": \"MAIN\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"POOrderNbr\": {\r\n                \"value\": \"000037\"\r\n            },\r\n            \"POOrderType\": {\r\n                \"value\": \"Normal\"\r\n            }\r\n        }\r\n    ]\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}PurchaseReceipt?$expand=Details&$select=Branch,ControlQty,CreateBill,CurrencyID,Details/InventoryID,Details/POOrderNbr,Details/POOrderType,Details/ReceiptQty,Details/TransactionDescription,Details/UnitCost,Details/UOM,Details/Warehouse,Hold,Location,ReceiptNbr,Status,TotalCost,VendorID",
-											"host": [
-												"{{EndpointURL}}PurchaseReceipt"
-											],
-											"query": [
-												{
-													"key": "$expand",
-													"value": "Details"
-												},
-												{
-													"key": "$select",
-													"value": "Branch,ControlQty,CreateBill,CurrencyID,Details/InventoryID,Details/POOrderNbr,Details/POOrderType,Details/ReceiptQty,Details/TransactionDescription,Details/UnitCost,Details/UOM,Details/Warehouse,Hold,Location,ReceiptNbr,Status,TotalCost,VendorID"
-												}
-											]
-										},
-										"description": "This example shows how to create a purchase receipt from a purchase order. This process is described in [Creation of a Purchase Order and Purchase Receipt](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=81e5ec25-09f7-421a-8f80-01b6b71d38c9)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Purchase Order and Purchase Receipt 3: Creation of a Purchase Receipt",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"value": "application/json",
-														"type": "text"
-													},
-													{
-														"key": "Content-Type",
-														"value": "application/json",
-														"type": "text"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n    \"VendorID\": {\r\n        \"value\": \"GOODFRUITS\"\r\n    },\r\n    \"Location\": {\r\n        \"value\": \"MAIN\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"POOrderNbr\": {\r\n                \"value\": \"000037\"\r\n            },\r\n            \"POOrderType\": {\r\n                \"value\": \"Normal\"\r\n            }\r\n        }\r\n    ]\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}PurchaseReceipt?$expand=Details&$select=Branch,ControlQty,CreateBill,CurrencyID,Details/InventoryID,Details/POOrderNbr,Details/POOrderType,Details/ReceiptQty,Details/TransactionDescription,Details/UnitCost,Details/UOM,Details/Warehouse,Hold,Location,ReceiptNbr,Status,TotalCost,VendorID",
-													"host": [
-														"{{EndpointURL}}PurchaseReceipt"
-													],
-													"query": [
-														{
-															"key": "$expand",
-															"value": "Details"
-														},
-														{
-															"key": "$select",
-															"value": "Branch,ControlQty,CreateBill,CurrencyID,Details/InventoryID,Details/POOrderNbr,Details/POOrderType,Details/ReceiptQty,Details/TransactionDescription,Details/UnitCost,Details/UOM,Details/Warehouse,Hold,Location,ReceiptNbr,Status,TotalCost,VendorID"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898D29D11EB6C5C0022C502; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:1896+sc:~/entity/default/20.200.001/purchasereceipt+start:637486395970001794+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 11 Feb 2021 11:26:38 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "747"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"06c52200-5c6c-eb11-9dd2-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": {\n        \"value\": \"\"\n    },\n    \"Branch\": {\n        \"value\": \"HEADOFFICE\"\n    },\n    \"ControlQty\": {\n        \"value\": 1\n    },\n    \"CreateBill\": {\n        \"value\": false\n    },\n    \"CurrencyID\": {\n        \"value\": \"USD\"\n    },\n    \"Details\": [\n        {\n            \"id\": \"09c52200-5c6c-eb11-9dd2-9828a61840c3\",\n            \"rowNumber\": 1,\n            \"note\": null,\n            \"InventoryID\": {\n                \"value\": \"APPLES\"\n            },\n            \"POOrderNbr\": {\n                \"value\": \"000037\"\n            },\n            \"POOrderType\": {\n                \"value\": \"Normal\"\n            },\n            \"ReceiptQty\": {\n                \"value\": 1\n            },\n            \"TransactionDescription\": {\n                \"value\": \"Fresh apples 1 lb\"\n            },\n            \"UnitCost\": {\n                \"value\": 2.29\n            },\n            \"UOM\": {\n                \"value\": \"LB\"\n            },\n            \"Warehouse\": {\n                \"value\": \"WHOLESALE\"\n            },\n            \"custom\": {}\n        }\n    ],\n    \"Hold\": {\n        \"value\": false\n    },\n    \"Location\": {\n        \"value\": \"MAIN\"\n    },\n    \"ReceiptNbr\": {\n        \"value\": \"000027\"\n    },\n    \"Status\": {\n        \"value\": \"Balanced\"\n    },\n    \"TotalCost\": {\n        \"value\": 2.29\n    },\n    \"VendorID\": {\n        \"value\": \"GOODFRUITS\"\n    },\n    \"custom\": {}\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Shipment with Allocations and Package 1: Creation of Sales Order 1",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"CustomerID\": {\r\n        \"value\": \"GOODFOOD\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"Branch\": {\r\n                \"value\": \"HEADOFFICE\"\r\n            },\r\n            \"InventoryID\": {\r\n                \"value\": \"APJAM08\"\r\n            },\r\n            \"OrderQty\": {\r\n                \"value\": 2\r\n            },\r\n            \"UOM\": {\r\n                \"value\": \"PIECE\"\r\n            },\r\n            \"WarehouseID\": {\r\n                \"value\": \"WHOLESALE\"\r\n            }\r\n        }\r\n    ]\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}SalesOrder?$expand=Details&$select=CustomerID,Details/Branch,Details/InventoryID,Details/OrderQty,OrderNbr",
-											"host": [
-												"{{EndpointURL}}SalesOrder"
-											],
-											"query": [
-												{
-													"key": "$expand",
-													"value": "Details"
-												},
-												{
-													"key": "$select",
-													"value": "CustomerID,Details/Branch,Details/InventoryID,Details/OrderQty,OrderNbr"
-												}
-											]
-										},
-										"description": "This example shows how to create a sales order. This process is described in [Creation of a Shipment with Allocations and Package](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=f8ef40fd-5a93-4e39-a52b-e827355cb5b8)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Shipment with Allocations and Package 1: Creation of Sales Order 1",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"value": "application/json",
-														"type": "text"
-													},
-													{
-														"key": "Content-Type",
-														"value": "application/json",
-														"type": "text"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n    \"CustomerID\": {\r\n        \"value\": \"GOODFOOD\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"Branch\": {\r\n                \"value\": \"HEADOFFICE\"\r\n            },\r\n            \"InventoryID\": {\r\n                \"value\": \"APJAM08\"\r\n            },\r\n            \"OrderQty\": {\r\n                \"value\": 2\r\n            },\r\n            \"UOM\": {\r\n                \"value\": \"PIECE\"\r\n            },\r\n            \"WarehouseID\": {\r\n                \"value\": \"WHOLESALE\"\r\n            }\r\n        }\r\n    ]\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}SalesOrder?$expand=Details&$select=CustomerID,Details/Branch,Details/InventoryID,Details/OrderQty,OrderNbr",
-													"host": [
-														"{{EndpointURL}}SalesOrder"
-													],
-													"query": [
-														{
-															"key": "$expand",
-															"value": "Details"
-														},
-														{
-															"key": "$select",
-															"value": "CustomerID,Details/Branch,Details/InventoryID,Details/OrderQty,OrderNbr"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898D19D11EB6B930395E88C; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:931+sc:~/entity/default/20.200.001/salesorder+start:637485532739452684+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Wed, 10 Feb 2021 11:27:54 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "402"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"8de89503-936b-eb11-9dd1-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": {\n        \"value\": \"\"\n    },\n    \"CustomerID\": {\n        \"value\": \"GOODFOOD\"\n    },\n    \"Details\": [\n        {\n            \"id\": \"93e89503-936b-eb11-9dd1-9828a61840c3\",\n            \"rowNumber\": 1,\n            \"note\": null,\n            \"Branch\": {\n                \"value\": \"HEADOFFICE\"\n            },\n            \"InventoryID\": {\n                \"value\": \"APJAM08\"\n            },\n            \"OrderQty\": {\n                \"value\": 2\n            },\n            \"UOM\": {\n                \"value\": \"PIECE\"\n            },\n            \"WarehouseID\": {\n                \"value\": \"WHOLESALE\"\n            },\n            \"custom\": {}\n        }\n    ],\n    \"OrderNbr\": {\n        \"value\": \"000071\"\n    },\n    \"custom\": {}\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Shipment with Allocations and Package 2: Creation of Sales Order 2",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"CustomerID\": {\r\n        \"value\": \"GOODFOOD\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"Branch\": {\r\n                \"value\": \"HEADOFFICE\"\r\n            },\r\n            \"InventoryID\": {\r\n                \"value\": \"APJAM32\"\r\n            },\r\n            \"OrderQty\": {\r\n                \"value\": 1\r\n            },\r\n            \"UOM\": {\r\n                \"value\": \"BOX\"\r\n            },\r\n            \"WarehouseID\": {\r\n                \"value\": \"WHOLESALE\"\r\n            }\r\n        }\r\n    ]\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}SalesOrder?$expand=Details&$select=CustomerID,Details/Branch,Details/InventoryID,Details/OrderQty,OrderNbr",
-											"host": [
-												"{{EndpointURL}}SalesOrder"
-											],
-											"query": [
-												{
-													"key": "$expand",
-													"value": "Details"
-												},
-												{
-													"key": "$select",
-													"value": "CustomerID,Details/Branch,Details/InventoryID,Details/OrderQty,OrderNbr"
-												}
-											]
-										},
-										"description": "This example shows how to create a sales order. This process is described in [Creation of a Shipment with Allocations and Package](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=f8ef40fd-5a93-4e39-a52b-e827355cb5b8)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Shipment with Allocations and Package 2: Creation of Sales Order 2",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"value": "application/json",
-														"type": "text"
-													},
-													{
-														"key": "Content-Type",
-														"value": "application/json",
-														"type": "text"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n    \"CustomerID\": {\r\n        \"value\": \"GOODFOOD\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"Branch\": {\r\n                \"value\": \"HEADOFFICE\"\r\n            },\r\n            \"InventoryID\": {\r\n                \"value\": \"APJAM32\"\r\n            },\r\n            \"OrderQty\": {\r\n                \"value\": 1\r\n            },\r\n            \"UOM\": {\r\n                \"value\": \"BOX\"\r\n            },\r\n            \"WarehouseID\": {\r\n                \"value\": \"WHOLESALE\"\r\n            }\r\n        }\r\n    ]\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}SalesOrder?$expand=Details&$select=CustomerID,Details/Branch,Details/InventoryID,Details/OrderQty,OrderNbr",
-													"host": [
-														"{{EndpointURL}}SalesOrder"
-													],
-													"query": [
-														{
-															"key": "$expand",
-															"value": "Details"
-														},
-														{
-															"key": "$select",
-															"value": "CustomerID,Details/Branch,Details/InventoryID,Details/OrderQty,OrderNbr"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898D19D11EB6B95EA98D075; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:3911+sc:~/entity/default/20.200.001/salesorder+start:637485545205114613+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Wed, 10 Feb 2021 11:48:44 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "400"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"76d098ea-956b-eb11-9dd1-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": {\n        \"value\": \"\"\n    },\n    \"CustomerID\": {\n        \"value\": \"GOODFOOD\"\n    },\n    \"Details\": [\n        {\n            \"id\": \"7cd098ea-956b-eb11-9dd1-9828a61840c3\",\n            \"rowNumber\": 1,\n            \"note\": null,\n            \"Branch\": {\n                \"value\": \"HEADOFFICE\"\n            },\n            \"InventoryID\": {\n                \"value\": \"APJAM32\"\n            },\n            \"OrderQty\": {\n                \"value\": 1\n            },\n            \"UOM\": {\n                \"value\": \"BOX\"\n            },\n            \"WarehouseID\": {\n                \"value\": \"WHOLESALE\"\n            },\n            \"custom\": {}\n        }\n    ],\n    \"OrderNbr\": {\n        \"value\": \"000072\"\n    },\n    \"custom\": {}\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Shipment with Allocations and Package 3: Creation of a Shipment",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"CustomerID\": {\r\n        \"value\": \"GOODFOOD\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"OrderNbr\": {\r\n                \"value\": \"000071\"\r\n            },\r\n            \"OrderType\": {\r\n                \"value\": \"SO\"\r\n            },\r\n            \"OrderLineNbr\": {\r\n                \"value\": 1\r\n            },\r\n            \"Allocations\": [\r\n                {\r\n                    \"InventoryID\": {\r\n                        \"value\": \"APJAM08\"\r\n                    },\r\n                    \"LocationID\": {\r\n                        \"value\": \"L2R3S1\"\r\n                    },\r\n                    \"Qty\": {\r\n                        \"value\": 1\r\n                    },\r\n                    \"UOM\": {\r\n                        \"value\": \"PIECE\"\r\n                    }\r\n                },\r\n                {\r\n                    \"InventoryID\": {\r\n                        \"value\": \"APJAM08\"\r\n                    },\r\n                    \"LocationID\": {\r\n                        \"value\": \"L3R2S1\"\r\n                    },\r\n                    \"Qty\": {\r\n                        \"value\": 1\r\n                    },\r\n                    \"UOM\": {\r\n                        \"value\": \"PIECE\"\r\n                    }\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"OrderNbr\": {\r\n                \"value\": \"000072\"\r\n            },\r\n            \"OrderType\": {\r\n                \"value\": \"SO\"\r\n            },\r\n            \"OrderLineNbr\": {\r\n                \"value\": 1\r\n            },\r\n            \"Allocations\": [\r\n                {\r\n                    \"InventoryID\": {\r\n                        \"value\": \"APJAM32\"\r\n                    },\r\n                    \"LocationID\": {\r\n                        \"value\": \"L1R3S2\"\r\n                    },\r\n                    \"Qty\": {\r\n                        \"value\": 6\r\n                    },\r\n                    \"UOM\": {\r\n                        \"value\": \"PIECE\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"LocationID\": {\r\n        \"value\": \"MAIN\"\r\n    },\r\n    \"Operation\": {\r\n        \"value\": \"Issue\"\r\n    },\r\n    \"Packages\": [\r\n        {\r\n            \"BoxID\": {\r\n                \"value\": \"LARGE\"\r\n            },\r\n            \"UOM\": {\r\n                \"value\": \"KG\"\r\n            },\r\n            \"Weight\": {\r\n                \"value\": 15\r\n            }\r\n        }\r\n    ],\r\n    \"WarehouseID\": {\r\n        \"value\": \"WHOLESALE\"\r\n    }\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}Shipment?$expand=Details,Details/Allocations,Packages,Packages/PackageContents&$select=CustomerID,Details/Description,Details/OrderNbr,Details/Allocations/InventoryID,Details/Allocations/LocationID,Details/Allocations/Qty,Details/Allocations/UOM,LocationID,Operation,Packages/BoxID,Packages/PackageContents,Packages/UOM,Packages/Weight,PackageWeight,ShipmentNbr,ShippedQty,Status,WarehouseID",
-											"host": [
-												"{{EndpointURL}}Shipment"
-											],
-											"query": [
-												{
-													"key": "$expand",
-													"value": "Details,Details/Allocations,Packages,Packages/PackageContents"
-												},
-												{
-													"key": "$select",
-													"value": "CustomerID,Details/Description,Details/OrderNbr,Details/Allocations/InventoryID,Details/Allocations/LocationID,Details/Allocations/Qty,Details/Allocations/UOM,LocationID,Operation,Packages/BoxID,Packages/PackageContents,Packages/UOM,Packages/Weight,PackageWeight,ShipmentNbr,ShippedQty,Status,WarehouseID"
-												}
-											]
-										},
-										"description": "This example shows how to create a shipment with allocations and package. This process is described in [Creation of a Shipment with Allocations and Package](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=f8ef40fd-5a93-4e39-a52b-e827355cb5b8)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Shipment with Allocations and Package 3: Creation of a Shipment",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"value": "application/json",
-														"type": "text"
-													},
-													{
-														"key": "Content-Type",
-														"value": "application/json",
-														"type": "text"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n    \"CustomerID\": {\r\n        \"value\": \"GOODFOOD\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"OrderNbr\": {\r\n                \"value\": \"000071\"\r\n            },\r\n            \"OrderType\": {\r\n                \"value\": \"SO\"\r\n            },\r\n            \"OrderLineNbr\": {\r\n                \"value\": 1\r\n            },\r\n            \"Allocations\": [\r\n                {\r\n                    \"InventoryID\": {\r\n                        \"value\": \"APJAM08\"\r\n                    },\r\n                    \"LocationID\": {\r\n                        \"value\": \"L2R3S1\"\r\n                    },\r\n                    \"Qty\": {\r\n                        \"value\": 1\r\n                    },\r\n                    \"UOM\": {\r\n                        \"value\": \"PIECE\"\r\n                    }\r\n                },\r\n                {\r\n                    \"InventoryID\": {\r\n                        \"value\": \"APJAM08\"\r\n                    },\r\n                    \"LocationID\": {\r\n                        \"value\": \"L3R2S1\"\r\n                    },\r\n                    \"Qty\": {\r\n                        \"value\": 1\r\n                    },\r\n                    \"UOM\": {\r\n                        \"value\": \"PIECE\"\r\n                    }\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"OrderNbr\": {\r\n                \"value\": \"000072\"\r\n            },\r\n            \"OrderType\": {\r\n                \"value\": \"SO\"\r\n            },\r\n            \"OrderLineNbr\": {\r\n                \"value\": 1\r\n            },\r\n            \"Allocations\": [\r\n                {\r\n                    \"InventoryID\": {\r\n                        \"value\": \"APJAM32\"\r\n                    },\r\n                    \"LocationID\": {\r\n                        \"value\": \"L1R3S2\"\r\n                    },\r\n                    \"Qty\": {\r\n                        \"value\": 6\r\n                    },\r\n                    \"UOM\": {\r\n                        \"value\": \"PIECE\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ],\r\n    \"LocationID\": {\r\n        \"value\": \"MAIN\"\r\n    },\r\n    \"Operation\": {\r\n        \"value\": \"Issue\"\r\n    },\r\n    \"Packages\": [\r\n        {\r\n            \"BoxID\": {\r\n                \"value\": \"LARGE\"\r\n            },\r\n            \"UOM\": {\r\n                \"value\": \"KG\"\r\n            },\r\n            \"Weight\": {\r\n                \"value\": 15\r\n            }\r\n        }\r\n    ],\r\n    \"WarehouseID\": {\r\n        \"value\": \"WHOLESALE\"\r\n    }\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}Shipment?$expand=Details,Details/Allocations,Packages,Packages/PackageContents&$select=CustomerID,Details/Description,Details/OrderNbr,Details/Allocations/InventoryID,Details/Allocations/LocationID,Details/Allocations/Qty,Details/Allocations/UOM,LocationID,Operation,Packages/BoxID,Packages/PackageContents,Packages/UOM,Packages/Weight,PackageWeight,ShipmentNbr,ShippedQty,Status,WarehouseID",
-													"host": [
-														"{{EndpointURL}}Shipment"
-													],
-													"query": [
-														{
-															"key": "$expand",
-															"value": "Details,Details/Allocations,Packages,Packages/PackageContents"
-														},
-														{
-															"key": "$select",
-															"value": "CustomerID,Details/Description,Details/OrderNbr,Details/Allocations/InventoryID,Details/Allocations/LocationID,Details/Allocations/Qty,Details/Allocations/UOM,LocationID,Operation,Packages/BoxID,Packages/PackageContents,Packages/UOM,Packages/Weight,PackageWeight,ShipmentNbr,ShippedQty,Status,WarehouseID"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898D19D11EB6BA135EA09B0; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:2710+sc:~/entity/default/20.200.001/shipment+start:637485593713369136+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Wed, 10 Feb 2021 13:09:34 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "1574"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"b109ea35-a16b-eb11-9dd1-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": {\n        \"value\": \"\"\n    },\n    \"CustomerID\": {\n        \"value\": \"GOODFOOD\"\n    },\n    \"Details\": [\n        {\n            \"id\": \"b609ea35-a16b-eb11-9dd1-9828a61840c3\",\n            \"rowNumber\": 1,\n            \"note\": null,\n            \"Allocations\": [\n                {\n                    \"id\": \"24b8b0ae-4783-4fdd-8e39-fa2bbc0d1cbf\",\n                    \"rowNumber\": 1,\n                    \"note\": null,\n                    \"InventoryID\": {\n                        \"value\": \"APJAM08\"\n                    },\n                    \"LocationID\": {\n                        \"value\": \"L2R3S1\"\n                    },\n                    \"Qty\": {\n                        \"value\": 1\n                    },\n                    \"UOM\": {\n                        \"value\": \"PIECE\"\n                    },\n                    \"custom\": {}\n                },\n                {\n                    \"id\": \"72a221fc-4908-4eb4-ae9e-254df627b6fa\",\n                    \"rowNumber\": 2,\n                    \"note\": null,\n                    \"InventoryID\": {\n                        \"value\": \"APJAM08\"\n                    },\n                    \"LocationID\": {\n                        \"value\": \"L3R2S1\"\n                    },\n                    \"Qty\": {\n                        \"value\": 1\n                    },\n                    \"UOM\": {\n                        \"value\": \"PIECE\"\n                    },\n                    \"custom\": {}\n                }\n            ],\n            \"Description\": {\n                \"value\": \"Apple jam 8 oz.\"\n            },\n            \"OrderLineNbr\": {\n                \"value\": 1\n            },\n            \"OrderNbr\": {\n                \"value\": \"000071\"\n            },\n            \"OrderType\": {\n                \"value\": \"SO\"\n            },\n            \"custom\": {}\n        },\n        {\n            \"id\": \"b809ea35-a16b-eb11-9dd1-9828a61840c3\",\n            \"rowNumber\": 2,\n            \"note\": null,\n            \"Allocations\": [\n                {\n                    \"id\": \"2bbe4202-3a7e-4457-9e50-037df4f29ced\",\n                    \"rowNumber\": 1,\n                    \"note\": null,\n                    \"InventoryID\": {\n                        \"value\": \"APJAM32\"\n                    },\n                    \"LocationID\": {\n                        \"value\": \"L1R3S2\"\n                    },\n                    \"Qty\": {\n                        \"value\": 6\n                    },\n                    \"UOM\": {\n                        \"value\": \"PIECE\"\n                    },\n                    \"custom\": {}\n                }\n            ],\n            \"Description\": {\n                \"value\": \"Apple jam 32 oz\"\n            },\n            \"OrderLineNbr\": {\n                \"value\": 1\n            },\n            \"OrderNbr\": {\n                \"value\": \"000072\"\n            },\n            \"OrderType\": {\n                \"value\": \"SO\"\n            },\n            \"custom\": {}\n        }\n    ],\n    \"LocationID\": {\n        \"value\": \"MAIN\"\n    },\n    \"Operation\": {\n        \"value\": \"Issue\"\n    },\n    \"Packages\": [\n        {\n            \"id\": \"b909ea35-a16b-eb11-9dd1-9828a61840c3\",\n            \"rowNumber\": 1,\n            \"note\": null,\n            \"BoxID\": {\n                \"value\": \"LARGE\"\n            },\n            \"PackageContents\": [],\n            \"UOM\": {\n                \"value\": \"KG\"\n            },\n            \"Weight\": {\n                \"value\": 15\n            },\n            \"custom\": {}\n        }\n    ],\n    \"PackageWeight\": {\n        \"value\": 15\n    },\n    \"ShipmentNbr\": {\n        \"value\": \"000062\"\n    },\n    \"ShippedQty\": {\n        \"value\": 3\n    },\n    \"Status\": {\n        \"value\": \"Open\"\n    },\n    \"WarehouseID\": {\n        \"value\": \"WHOLESALE\"\n    },\n    \"custom\": {}\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Purchase Receipt with Allocations 1: Creation of a Purchase Order",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"VendorID\": {\r\n        \"value\": \"GLORYFRUIT\"\r\n    },\r\n    \"Type\": {\r\n        \"value\": \"Normal\"\r\n    },\r\n    \"Date\": {\r\n        \"value\": \"2018-01-30\"\r\n    },\r\n    \"Description\": {\r\n        \"value\": \"Purchase of guavas, 20 lb\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"Branch\": {\r\n                \"value\": \"HEADOFFICE\"\r\n                },\r\n            \"InventoryID\": {\r\n                \"value\": \"GUAVAS\"\r\n            },\r\n            \"WarehouseID\": {\r\n                \"value\": \"WHOLESALE\"\r\n            },\r\n            \"OrderQty\": {\r\n                \"value\": 20\r\n            },\r\n            \"UnitCost\": {\r\n                \"value\": 9.95\r\n            }\r\n        }\r\n    ]\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}PurchaseOrder",
-											"host": [
-												"{{EndpointURL}}PurchaseOrder"
-											]
-										},
-										"description": "This example shows how to create a purchase order. This process is described in [Creation of a Purchase Receipt with Allocations](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=918995d9-45ce-4cf7-a271-608abf967ae8)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Purchase Order",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"value": "application/json",
-														"type": "text"
-													},
-													{
-														"key": "Content-Type",
-														"value": "application/json",
-														"type": "text"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n    \"VendorID\": {\r\n        \"value\": \"GLORYFRUIT\"\r\n    },\r\n    \"Type\": {\r\n        \"value\": \"Normal\"\r\n    },\r\n    \"Date\": {\r\n        \"value\": \"2018-01-30\"\r\n    },\r\n    \"Description\": {\r\n        \"value\": \"Purchase of guavas, 20 lb\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"Branch\": {\r\n                \"value\": \"HEADOFFICE\"\r\n                },\r\n            \"InventoryID\": {\r\n                \"value\": \"GUAVAS\"\r\n            },\r\n            \"WarehouseID\": {\r\n                \"value\": \"WHOLESALE\"\r\n            },\r\n            \"OrderQty\": {\r\n                \"value\": 20\r\n            },\r\n            \"UnitCost\": {\r\n                \"value\": 9.95\r\n            }\r\n        }\r\n    ]\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}PurchaseOrder",
-													"host": [
-														"{{EndpointURL}}PurchaseOrder"
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Cache-Control",
-													"value": "private"
-												},
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898E49D11EBBF9870F28E3A; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:11788+sc:~/entity/default/20.200.001/purchaseorder+start:637577915025810618+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Fri, 28 May 2021 09:38:34 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "943"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"438ef270-98bf-eb11-9de4-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": {\n        \"value\": \"\"\n    },\n    \"BaseCurrencyID\": {\n        \"value\": \"USD\"\n    },\n    \"Branch\": {\n        \"value\": \"HEADOFFICE\"\n    },\n    \"ControlTotal\": {\n        \"value\": 199\n    },\n    \"CurrencyEffectiveDate\": {\n        \"value\": \"2018-01-30T00:00:00+03:00\"\n    },\n    \"CurrencyID\": {\n        \"value\": \"USD\"\n    },\n    \"CurrencyRate\": {\n        \"value\": 1\n    },\n    \"CurrencyRateTypeID\": {},\n    \"CurrencyReciprocalRate\": {\n        \"value\": 1\n    },\n    \"Date\": {\n        \"value\": \"2018-01-30T00:00:00+03:00\"\n    },\n    \"Description\": {\n        \"value\": \"Purchase of guavas, 20 lb\"\n    },\n    \"Details\": [],\n    \"Hold\": {\n        \"value\": true\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-05-28T12:38:33.773+03:00\"\n    },\n    \"LineTotal\": {\n        \"value\": 199\n    },\n    \"Location\": {\n        \"value\": \"MAIN\"\n    },\n    \"OrderNbr\": {\n        \"value\": \"000031\"\n    },\n    \"OrderTotal\": {\n        \"value\": 199\n    },\n    \"Owner\": {},\n    \"Project\": {\n        \"value\": \"X\"\n    },\n    \"PromisedOn\": {\n        \"value\": \"2018-01-30T00:00:00+03:00\"\n    },\n    \"Status\": {\n        \"value\": \"On Hold\"\n    },\n    \"TaxTotal\": {\n        \"value\": 0\n    },\n    \"Terms\": {\n        \"value\": \"30D\"\n    },\n    \"Type\": {\n        \"value\": \"Normal\"\n    },\n    \"VendorID\": {\n        \"value\": \"GLORYFRUIT\"\n    },\n    \"VendorRef\": {},\n    \"VendorTaxZone\": {},\n    \"custom\": {}\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Purchase Receipt with Allocations 2: Release of the Purchase Order from Hold",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"OrderNbr\": {\r\n        \"value\": \"000031\"\r\n    },\r\n    \"Type\": {\r\n        \"value\": \"Normal\"\r\n    },\r\n    \"Hold\": {\r\n        \"value\": false\r\n    }\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}PurchaseOrder",
-											"host": [
-												"{{EndpointURL}}PurchaseOrder"
-											],
-											"query": [
-												{
-													"key": null,
-													"value": "",
-													"disabled": true
-												}
-											]
-										},
-										"description": "This example shows how to release a purchase receipt from hold. This process is described in [Creation of a Purchase Receipt with Allocations](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=918995d9-45ce-4cf7-a271-608abf967ae8)."
-									},
-									"response": [
-										{
-											"name": "Release the Purchase Order from Hold",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"value": "application/json",
-														"type": "text"
-													},
-													{
-														"key": "Content-Type",
-														"value": "application/json",
-														"type": "text"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n    \"OrderNbr\": {\r\n        \"value\": \"000031\"\r\n    },\r\n    \"Type\": {\r\n        \"value\": \"Normal\"\r\n    },\r\n    \"Hold\": {\r\n        \"value\": false\r\n    }\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}PurchaseOrder",
-													"host": [
-														"{{EndpointURL}}PurchaseOrder"
-													],
-													"query": [
-														{
-															"key": null,
-															"value": "",
-															"disabled": true
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Cache-Control",
-													"value": "private"
-												},
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898E49D11EBBF989FAB66FF; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:1759+sc:~/entity/default/20.200.001/purchaseorder+start:637577915809686665+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Fri, 28 May 2021 09:39:42 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "950"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"438ef270-98bf-eb11-9de4-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": {\n        \"value\": \"\"\n    },\n    \"BaseCurrencyID\": {\n        \"value\": \"USD\"\n    },\n    \"Branch\": {\n        \"value\": \"HEADOFFICE\"\n    },\n    \"ControlTotal\": {\n        \"value\": 199\n    },\n    \"CurrencyEffectiveDate\": {\n        \"value\": \"2020-11-12T00:00:00+03:00\"\n    },\n    \"CurrencyID\": {\n        \"value\": \"USD\"\n    },\n    \"CurrencyRate\": {\n        \"value\": 1\n    },\n    \"CurrencyRateTypeID\": {},\n    \"CurrencyReciprocalRate\": {\n        \"value\": 1\n    },\n    \"Date\": {\n        \"value\": \"2018-01-30T00:00:00+03:00\"\n    },\n    \"Description\": {\n        \"value\": \"Purchase of guavas, 20 lb\"\n    },\n    \"Hold\": {\n        \"value\": false\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-05-28T12:39:42.57+03:00\"\n    },\n    \"LineTotal\": {\n        \"value\": 199\n    },\n    \"Location\": {\n        \"value\": \"MAIN\"\n    },\n    \"OrderNbr\": {\n        \"value\": \"000031\"\n    },\n    \"OrderTotal\": {\n        \"value\": 199\n    },\n    \"Owner\": {},\n    \"Project\": {\n        \"value\": \"X\"\n    },\n    \"PromisedOn\": {\n        \"value\": \"2018-01-30T00:00:00+03:00\"\n    },\n    \"Status\": {\n        \"value\": \"Open\"\n    },\n    \"TaxTotal\": {\n        \"value\": 0\n    },\n    \"Terms\": {\n        \"value\": \"30D\"\n    },\n    \"Type\": {\n        \"value\": \"Normal\"\n    },\n    \"VendorID\": {\n        \"value\": \"GLORYFRUIT\"\n    },\n    \"VendorRef\": {},\n    \"VendorTaxZone\": {},\n    \"custom\": {}\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Purchase Receipt with Allocations 3: Creation of a Purchase Receipt with Allocations",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n    \"Type\": {\r\n        \"value\": \"Receipt\"\r\n    },\r\n    \"VendorID\": {\r\n        \"value\": \"GLORYFRUIT\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"InventoryID\": {\r\n                \"value\": \"GUAVAS\"\r\n            },\r\n            \"Warehouse\": {\r\n                \"value\": \"WHOLESALE\"\r\n            },\r\n            \"Allocations\": [\r\n                {\r\n                    \"ExpirationDate\": {\r\n                        \"value\": \"2021-05-29T00:00:00+03:00\"\r\n                    },\r\n                    \"Qty\": {\r\n                        \"value\": 10\r\n                    },\r\n                    \"LotSerialNbr\": {\r\n                        \"value\": \"FRT000862\"\r\n                    }\r\n                },\r\n                {\r\n                    \"ExpirationDate\": {\r\n                        \"value\": \"2021-05-29T00:00:00+03:00\"\r\n                    },\r\n                    \"Qty\": {\r\n                        \"value\": 10\r\n                    },\r\n                    \"LotSerialNbr\": {\r\n                        \"value\": \"FRT000877\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}PurchaseReceipt?$expand=Details,Details/Allocations",
-											"host": [
-												"{{EndpointURL}}PurchaseReceipt"
-											],
-											"query": [
-												{
-													"key": "$expand",
-													"value": "Details,Details/Allocations"
-												}
-											]
-										},
-										"description": "This example shows how to create a purchase receipt with allocations. This process is described in [Creation of a Purchase Receipt with Allocations](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=918995d9-45ce-4cf7-a271-608abf967ae8)."
-									},
-									"response": [
-										{
-											"name": "Create a Purchase Receipt with Allocations",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"value": "application/json",
-														"type": "text"
-													},
-													{
-														"key": "Content-Type",
-														"value": "application/json",
-														"type": "text"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n    \"Type\": {\r\n        \"value\": \"Receipt\"\r\n    },\r\n    \"VendorID\": {\r\n        \"value\": \"GLORYFRUIT\"\r\n    },\r\n    \"Details\": [\r\n        {\r\n            \"InventoryID\": {\r\n                \"value\": \"GUAVAS\"\r\n            },\r\n            \"Warehouse\": {\r\n                \"value\": \"WHOLESALE\"\r\n            },\r\n            \"Allocations\": [\r\n                {\r\n                    \"ExpirationDate\": {\r\n                        \"value\": \"2021-05-29T00:00:00+03:00\"\r\n                    },\r\n                    \"Qty\": {\r\n                        \"value\": 10\r\n                    },\r\n                    \"LotSerialNbr\": {\r\n                        \"value\": \"FRT000862\"\r\n                    }\r\n                },\r\n                {\r\n                    \"ExpirationDate\": {\r\n                        \"value\": \"2021-05-29T00:00:00+03:00\"\r\n                    },\r\n                    \"Qty\": {\r\n                        \"value\": 10\r\n                    },\r\n                    \"LotSerialNbr\": {\r\n                        \"value\": \"FRT000877\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}PurchaseReceipt?$expand=Details,Details/Allocations",
-													"host": [
-														"{{EndpointURL}}PurchaseReceipt"
-													],
-													"query": [
-														{
-															"key": "$expand",
-															"value": "Details,Details/Allocations"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Cache-Control",
-													"value": "private"
-												},
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898E49D11EBBF98B9A17B6A; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:2087+sc:~/entity/default/20.200.001/purchasereceipt+start:637577916245234154+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Fri, 28 May 2021 09:40:26 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "2389"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"6b7ba1b9-98bf-eb11-9de4-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": {\n        \"value\": \"\"\n    },\n    \"BaseCurrencyID\": {\n        \"value\": \"USD\"\n    },\n    \"BillDate\": {\n        \"value\": \"2021-05-28T00:00:00+03:00\"\n    },\n    \"Branch\": {\n        \"value\": \"HEADOFFICE\"\n    },\n    \"ControlQty\": {\n        \"value\": 20\n    },\n    \"CreateBill\": {\n        \"value\": false\n    },\n    \"CurrencyEffectiveDate\": {\n        \"value\": \"2021-01-13T00:00:00+03:00\"\n    },\n    \"CurrencyID\": {\n        \"value\": \"USD\"\n    },\n    \"CurrencyRate\": {\n        \"value\": 1\n    },\n    \"CurrencyRateTypeID\": {},\n    \"CurrencyReciprocalRate\": {\n        \"value\": 1\n    },\n    \"Date\": {\n        \"value\": \"2021-05-28T00:00:00+03:00\"\n    },\n    \"Details\": [\n        {\n            \"id\": \"6d7ba1b9-98bf-eb11-9de4-9828a61840c3\",\n            \"rowNumber\": 1,\n            \"note\": null,\n            \"Account\": {},\n            \"AccrualAccount\": {\n                \"value\": \"20100\"\n            },\n            \"Allocations\": [\n                {\n                    \"id\": \"47f55dfd-3792-4193-9ad8-9a67b20e4475\",\n                    \"rowNumber\": 1,\n                    \"note\": null,\n                    \"ExpirationDate\": {\n                        \"value\": \"2021-05-29T00:00:00+03:00\"\n                    },\n                    \"LineNbr\": {\n                        \"value\": 1\n                    },\n                    \"Location\": {\n                        \"value\": \"MAIN\"\n                    },\n                    \"LotSerialNbr\": {\n                        \"value\": \"FRT000862\"\n                    },\n                    \"Qty\": {\n                        \"value\": 10\n                    },\n                    \"ReceiptNbr\": {\n                        \"value\": \"000023\"\n                    },\n                    \"SplitLineNbr\": {\n                        \"value\": 2\n                    },\n                    \"custom\": {}\n                },\n                {\n                    \"id\": \"1e0eb683-f63c-4630-87c1-1f0e3ee8b0a5\",\n                    \"rowNumber\": 2,\n                    \"note\": null,\n                    \"ExpirationDate\": {\n                        \"value\": \"2021-05-29T00:00:00+03:00\"\n                    },\n                    \"LineNbr\": {\n                        \"value\": 1\n                    },\n                    \"Location\": {\n                        \"value\": \"MAIN\"\n                    },\n                    \"LotSerialNbr\": {\n                        \"value\": \"FRT000877\"\n                    },\n                    \"Qty\": {\n                        \"value\": 10\n                    },\n                    \"ReceiptNbr\": {\n                        \"value\": \"000023\"\n                    },\n                    \"SplitLineNbr\": {\n                        \"value\": 3\n                    },\n                    \"custom\": {}\n                }\n            ],\n            \"Branch\": {\n                \"value\": \"HEADOFFICE\"\n            },\n            \"Description\": {},\n            \"EditableUnitCost\": {\n                \"value\": true\n            },\n            \"EstimatedINExtendedCost\": {\n                \"value\": 199\n            },\n            \"ExpirationDate\": {\n                \"value\": \"2021-05-29T00:00:00+03:00\"\n            },\n            \"ExtendedCost\": {\n                \"value\": 199\n            },\n            \"FinalINExtendedCost\": {},\n            \"InventoryID\": {\n                \"value\": \"GUAVAS\"\n            },\n            \"LineNbr\": {\n                \"value\": 1\n            },\n            \"LineType\": {\n                \"value\": \"Goods for IN\"\n            },\n            \"Location\": {\n                \"value\": \"MAIN\"\n            },\n            \"LotSerialNbr\": {},\n            \"OpenQty\": {},\n            \"OrderedQty\": {},\n            \"POLineNbr\": {},\n            \"POOrderNbr\": {},\n            \"POOrderType\": {},\n            \"POReceiptLineNbr\": {},\n            \"POReceiptNbr\": {},\n            \"ReceiptQty\": {\n                \"value\": 20\n            },\n            \"TransactionDescription\": {\n                \"value\": \"Fresh guavas 1 lb\"\n            },\n            \"TransferOrderLineNbr\": {},\n            \"TransferOrderNbr\": {},\n            \"TransferOrderType\": {},\n            \"TransferShipmentNbr\": {},\n            \"UnitCost\": {\n                \"value\": 9.95\n            },\n            \"UOM\": {\n                \"value\": \"LB\"\n            },\n            \"Warehouse\": {\n                \"value\": \"WHOLESALE\"\n            },\n            \"custom\": {}\n        }\n    ],\n    \"Hold\": {\n        \"value\": false\n    },\n    \"Location\": {\n        \"value\": \"MAIN\"\n    },\n    \"PostPeriod\": {\n        \"value\": \"052021\"\n    },\n    \"ProcessReturnWithOriginalCost\": {\n        \"value\": false\n    },\n    \"ReceiptNbr\": {\n        \"value\": \"000023\"\n    },\n    \"Status\": {\n        \"value\": \"Balanced\"\n    },\n    \"TotalCost\": {\n        \"value\": 199\n    },\n    \"TotalQty\": {\n        \"value\": 20\n    },\n    \"Type\": {\n        \"value\": \"Receipt\"\n    },\n    \"UnbilledQuantity\": {\n        \"value\": 20\n    },\n    \"VendorID\": {\n        \"value\": \"GLORYFRUIT\"\n    },\n    \"VendorRef\": {},\n    \"Warehouse\": {},\n    \"custom\": {}\n}"
-										}
-									]
-								}
-							],
-							"description": "This folder contains examples from the [Inventory and Order Management (REST API Examples)](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=ce68a4ed-491c-46e6-91ec-bde332c19218) chapter of the Integration Development Guide.",
-							"event": [
-								{
-									"listen": "prerequest",
-									"script": {
-										"type": "text/javascript",
-										"exec": [
-											""
-										]
-									}
-								},
-								{
-									"listen": "test",
-									"script": {
-										"type": "text/javascript",
-										"exec": [
-											""
-										]
-									}
-								}
-							]
-						},
-						{
 							"name": "Project Accounting",
 							"item": [
-								{
-									"name": "Creation of a Pro Forma Invoice 1: Create a Project",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"ProjectID\" : {\"value\" : \"TESTPR3\"},\r\n  \"ProjectTemplateID\" : {\"value\" : \"PROGRESS\"},\r\n  \"Customer\" : {\"value\" : \"COFFEESHOP\"},\r\n  \"BillingAndAllocationSettings\" : \r\n  \t{\r\n      \"BillingRule\" : {\"value\" : \"PROGRESS\"},\r\n      \"BillingPeriod\" : {\"value\" : \"Month\"},\r\n    }\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}Project",
-											"host": [
-												"{{EndpointURL}}Project"
-											]
-										},
-										"description": "This example shows how to create a pro forma invoice in Acumatica ERP. This process is described in [Creation of a Pro Forma Invoice](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=0dadafe8-c1bc-4a93-a1ec-89cf23692f02)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Pro Forma Invoice: Create a Project",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n  \"ProjectID\" : {\"value\" : \"TESTPR3\"},\r\n  \"ProjectTemplateID\" : {\"value\" : \"PROGRESS\"},\r\n  \"Customer\" : {\"value\" : \"COFFEESHOP\"},\r\n  \"BillingAndAllocationSettings\" : \r\n  \t{\r\n      \"BillingRule\" : {\"value\" : \"PROGRESS\"},\r\n      \"BillingPeriod\" : {\"value\" : \"Month\"},\r\n    }\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}Project",
-													"host": [
-														"{{EndpointURL}}Project"
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=8; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 05 Mar 2020 08:31:58 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "968"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"6adb22c3-bb5e-ea11-9ff9-4ccc6a8eefea\",\n    \"rowNumber\": 1,\n    \"note\": \"\",\n    \"BillingAndAllocationSettings\": {\n        \"id\": \"19ad35ce-cc6d-4b39-9fd3-e7406fe8190d\",\n        \"rowNumber\": 1,\n        \"note\": null,\n        \"AllocationRule\": {},\n        \"AutomaticallyReleaseARDocuments\": {\n            \"value\": false\n        },\n        \"BillingPeriod\": {\n            \"value\": \"Month\"\n        },\n        \"BillingRule\": {\n            \"value\": \"PROGRESS\"\n        },\n        \"Branch\": {\n            \"value\": \"SWEETEQUIP\"\n        },\n        \"CreateProFormaOnBilling\": {\n            \"value\": true\n        },\n        \"LastBillingDate\": {},\n        \"NextBillingDate\": {\n            \"value\": \"2020-04-05T00:00:00+00:00\"\n        },\n        \"RateTable\": {},\n        \"RunAllocationOnReleaseOfProjectTransactions\": {\n            \"value\": false\n        },\n        \"Terms\": {\n            \"value\": \"30D\"\n        },\n        \"UseTMRevenueBudgetLimits\": {\n            \"value\": false\n        },\n        \"custom\": {},\n        \"files\": []\n    },\n    \"Customer\": {\n        \"value\": \"COFFEESHOP\"\n    },\n    \"Description\": {\n        \"value\": \"A juicer with the installation and training\"\n    },\n    \"ExternalRefNbr\": {},\n    \"Hold\": {\n        \"value\": true\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2020-03-05T03:31:58.013+03:00\"\n    },\n    \"ProjectID\": {\n        \"value\": \"TESTPR3\"\n    },\n    \"ProjectTemplateID\": {\n        \"value\": \"PROGRESS\"\n    },\n    \"Status\": {\n        \"value\": \"In Planning\"\n    },\n    \"custom\": {},\n    \"files\": []\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Pro Forma Invoice 2: Make a Project Active",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"ProjectID\" : {\"value\" : \"TESTPR3\"},\r\n  \"Hold\" : {\"value\" : false}\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}Project",
-											"host": [
-												"{{EndpointURL}}Project"
-											]
-										},
-										"description": "This example shows how to create a pro forma invoice in Acumatica ERP. This process is described in [Creation of a Pro Forma Invoice](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=0dadafe8-c1bc-4a93-a1ec-89cf23692f02)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Pro Forma Invoice: Make a Project Active",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n  \"ProjectID\" : {\"value\" : \"TESTPR3\"},\r\n  \"Hold\" : {\"value\" : false}\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}Project",
-													"host": [
-														"{{EndpointURL}}Project"
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=9; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 05 Mar 2020 08:32:47 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "403"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"6adb22c3-bb5e-ea11-9ff9-4ccc6a8eefea\",\n    \"rowNumber\": 1,\n    \"note\": \"\",\n    \"Customer\": {\n        \"value\": \"COFFEESHOP\"\n    },\n    \"Description\": {\n        \"value\": \"A juicer with the installation and training\"\n    },\n    \"ExternalRefNbr\": {},\n    \"Hold\": {\n        \"value\": false\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2020-03-05T03:32:47.7+03:00\"\n    },\n    \"ProjectID\": {\n        \"value\": \"TESTPR3\"\n    },\n    \"ProjectTemplateID\": {\n        \"value\": \"PROGRESS\"\n    },\n    \"Status\": {\n        \"value\": \"Active\"\n    },\n    \"custom\": {},\n    \"files\": []\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Pro Forma Invoice 3: Specify NextBillingDate",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"ProjectID\" : {\"value\" : \"TESTPR3\"},\r\n    \"BillingAndAllocationSettings\" : \r\n    {\r\n      \"NextBillingDate\" : {\"value\" : \"2019-08-15\"},\r\n    }\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}Project",
-											"host": [
-												"{{EndpointURL}}Project"
-											]
-										},
-										"description": "This example shows how to create a pro forma invoice in Acumatica ERP. This process is described in [Creation of a Pro Forma Invoice](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=0dadafe8-c1bc-4a93-a1ec-89cf23692f02)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Pro Forma Invoice: Specify NextBillingDate",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n  \"ProjectID\" : {\"value\" : \"TESTPR3\"},\r\n    \"BillingAndAllocationSettings\" : \r\n    {\r\n      \"NextBillingDate\" : {\"value\" : \"2019-08-15\"},\r\n    }\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}Project",
-													"host": [
-														"{{EndpointURL}}Project"
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=10; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 05 Mar 2020 08:34:25 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "964"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"6adb22c3-bb5e-ea11-9ff9-4ccc6a8eefea\",\n    \"rowNumber\": 1,\n    \"note\": \"\",\n    \"BillingAndAllocationSettings\": {\n        \"id\": \"19ad35ce-cc6d-4b39-9fd3-e7406fe8190d\",\n        \"rowNumber\": 1,\n        \"note\": null,\n        \"AllocationRule\": {},\n        \"AutomaticallyReleaseARDocuments\": {\n            \"value\": false\n        },\n        \"BillingPeriod\": {\n            \"value\": \"Month\"\n        },\n        \"BillingRule\": {\n            \"value\": \"PROGRESS\"\n        },\n        \"Branch\": {\n            \"value\": \"SWEETEQUIP\"\n        },\n        \"CreateProFormaOnBilling\": {\n            \"value\": true\n        },\n        \"LastBillingDate\": {},\n        \"NextBillingDate\": {\n            \"value\": \"2019-08-15T00:00:00+03:00\"\n        },\n        \"RateTable\": {},\n        \"RunAllocationOnReleaseOfProjectTransactions\": {\n            \"value\": false\n        },\n        \"Terms\": {\n            \"value\": \"30D\"\n        },\n        \"UseTMRevenueBudgetLimits\": {\n            \"value\": false\n        },\n        \"custom\": {},\n        \"files\": []\n    },\n    \"Customer\": {\n        \"value\": \"COFFEESHOP\"\n    },\n    \"Description\": {\n        \"value\": \"A juicer with the installation and training\"\n    },\n    \"ExternalRefNbr\": {},\n    \"Hold\": {\n        \"value\": false\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2020-03-05T03:34:25.553+03:00\"\n    },\n    \"ProjectID\": {\n        \"value\": \"TESTPR3\"\n    },\n    \"ProjectTemplateID\": {\n        \"value\": \"PROGRESS\"\n    },\n    \"Status\": {\n        \"value\": \"Active\"\n    },\n    \"custom\": {},\n    \"files\": []\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Pro Forma Invoice 4: Activate a Project Task",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"ProjectTaskID\" : {\"value\" : \"PHASE1\"},\r\n  \"ProjectID\" : {\"value\" : \"TESTPR3\"},\r\n  \"Status\" : {\"value\" : \"Active\"},\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}ProjectTask",
-											"host": [
-												"{{EndpointURL}}ProjectTask"
-											]
-										},
-										"description": "This example shows how to create a pro forma invoice in Acumatica ERP. This process is described in [Creation of a Pro Forma Invoice](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=0dadafe8-c1bc-4a93-a1ec-89cf23692f02)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Pro Forma Invoice: Activate a Project Task",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n  \"ProjectTaskID\" : {\"value\" : \"PHASE1\"},\r\n  \"ProjectID\" : {\"value\" : \"TESTPR3\"},\r\n  \"Status\" : {\"value\" : \"Active\"},\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}ProjectTask",
-													"host": [
-														"{{EndpointURL}}ProjectTask"
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=11; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 05 Mar 2020 08:35:01 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "357"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"6fdb22c3-bb5e-ea11-9ff9-4ccc6a8eefea\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"Default\": {\n        \"value\": false\n    },\n    \"Description\": {\n        \"value\": \"A juicer with the installation\"\n    },\n    \"ExternalRefNbr\": {},\n    \"LastModifiedDateTime\": {\n        \"value\": \"2020-03-05T03:35:01.613+03:00\"\n    },\n    \"ProjectID\": {\n        \"value\": \"TESTPR3\"\n    },\n    \"ProjectTaskID\": {\n        \"value\": \"PHASE1\"\n    },\n    \"Status\": {\n        \"value\": \"Active\"\n    },\n    \"custom\": {},\n    \"files\": []\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Pro Forma Invoice 5: Specify the Progress of the Project Task",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"ProjectTaskID\" : {\"value\" : \"PHASE1\"},\r\n  \"ProjectID\" : {\"value\" : \"TESTPR3\"},\r\n  \"InventoryID\" : {\"value\" : \"<N/A>\"},\r\n  \"Completed\" : {\"value\" : 25},\r\n  \"PendingInvoiceAmount\" : {\"value\" : 725}\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}ProjectBudget",
-											"host": [
-												"{{EndpointURL}}ProjectBudget"
-											]
-										},
-										"description": "This example shows how to create a pro forma invoice in Acumatica ERP. This process is described in [Creation of a Pro Forma Invoice](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=0dadafe8-c1bc-4a93-a1ec-89cf23692f02)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Pro Forma Invoice: Specify the Progress of the Project Task",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n  \"ProjectTaskID\" : {\"value\" : \"PHASE1\"},\r\n  \"ProjectID\" : {\"value\" : \"TESTPR3\"},\r\n  \"InventoryID\" : {\"value\" : \"<N/A>\"},\r\n  \"Completed\" : {\"value\" : 25},\r\n  \"PendingInvoiceAmount\" : {\"value\" : 725}\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}ProjectBudget",
-													"host": [
-														"{{EndpointURL}}ProjectBudget"
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=60; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 05 Mar 2020 08:48:53 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "1701"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"70db22c3-bb5e-ea11-9ff9-4ccc6a8eefea\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"AccountGroup\": {\n        \"value\": \"REVENUE\"\n    },\n    \"ActualAmount\": {\n        \"value\": 0\n    },\n    \"ActualPlusOpenCommittedAmount\": {\n        \"value\": 0\n    },\n    \"ActualQty\": {\n        \"value\": 0\n    },\n    \"AutoCompleted\": {\n        \"value\": false\n    },\n    \"BudgetedCOAmount\": {\n        \"value\": 0\n    },\n    \"BudgetedCOQty\": {\n        \"value\": 0\n    },\n    \"CommittedCOAmount\": {\n        \"value\": 0\n    },\n    \"CommittedCOQty\": {\n        \"value\": 0\n    },\n    \"CommittedInvoicedAmount\": {\n        \"value\": 0\n    },\n    \"CommittedInvoicedQty\": {\n        \"value\": 0\n    },\n    \"CommittedOpenAmount\": {\n        \"value\": 0\n    },\n    \"CommittedOpenQty\": {\n        \"value\": 0\n    },\n    \"CommittedReceivedQty\": {\n        \"value\": 0\n    },\n    \"Completed\": {\n        \"value\": 25\n    },\n    \"CostAtCompletion\": {\n        \"value\": 0\n    },\n    \"CostToComplete\": {\n        \"value\": 0\n    },\n    \"Description\": {\n        \"value\": \"A juicer with the installation\"\n    },\n    \"DraftInvoicesAmount\": {\n        \"value\": 0\n    },\n    \"InventoryID\": {\n        \"value\": \"<N/A>\"\n    },\n    \"LastCostAtCompletion\": {\n        \"value\": 0\n    },\n    \"LastCostToComplete\": {\n        \"value\": 0\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2020-03-05T03:48:53.17+03:00\"\n    },\n    \"LastPercentageOfCompletion\": {\n        \"value\": 0\n    },\n    \"OriginalBudgetedAmount\": {\n        \"value\": 2900\n    },\n    \"OriginalBudgetedQty\": {\n        \"value\": 0\n    },\n    \"OriginalCommittedAmount\": {\n        \"value\": 0\n    },\n    \"OriginalCommittedQty\": {\n        \"value\": 0\n    },\n    \"PendingInvoiceAmount\": {\n        \"value\": 725\n    },\n    \"PercentageOfCompletion\": {\n        \"value\": 0\n    },\n    \"Performance\": {\n        \"value\": 0\n    },\n    \"ProjectID\": {\n        \"value\": \"TESTPR3\"\n    },\n    \"ProjectTaskID\": {\n        \"value\": \"PHASE1\"\n    },\n    \"RevenueTask\": {},\n    \"RevisedBudgetedAmount\": {\n        \"value\": 2900\n    },\n    \"RevisedBudgetedQty\": {\n        \"value\": 0\n    },\n    \"RevisedCommittedAmount\": {\n        \"value\": 0\n    },\n    \"RevisedCommittedQty\": {\n        \"value\": 0\n    },\n    \"TaxCategory\": {},\n    \"Type\": {\n        \"value\": \"Income\"\n    },\n    \"UnitRate\": {\n        \"value\": 0\n    },\n    \"UOM\": {\n        \"value\": \"HOUR\"\n    },\n    \"VarianceAmount\": {\n        \"value\": 2900\n    },\n    \"custom\": {},\n    \"files\": []\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Pro Forma Invoice 6: Invoke Project Billing",
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"entity\" : {\r\n    \"ProjectID\": {\r\n        \"value\": \"TESTPR3\"\r\n    },\r\n  }\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}Project/RunProjectBilling",
-											"host": [
-												"{{EndpointURL}}Project"
-											],
-											"path": [
-												"RunProjectBilling"
-											]
-										},
-										"description": "This example shows how to create a pro forma invoice in Acumatica ERP. This process is described in [Creation of a Pro Forma Invoice](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=0dadafe8-c1bc-4a93-a1ec-89cf23692f02)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Pro Forma Invoice: Invoke Project Billing",
-											"originalRequest": {
-												"method": "POST",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n  \"entity\" : {\r\n    \"ProjectID\": {\r\n        \"value\": \"TESTPR3\"\r\n    },\r\n  }\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}Project/RunProjectBilling",
-													"host": [
-														"{{EndpointURL}}Project"
-													],
-													"path": [
-														"RunProjectBilling"
-													]
-												}
-											},
-											"status": "Accepted",
-											"code": 202,
-											"_postman_previewlanguage": "plain",
-											"header": [
-												{
-													"key": "Location",
-													"value": "/IntegrationDevelopmentGuide/entity/Default/18.200.001/Project/RunProjectBilling/status/9b9b5fdd-e31d-45db-a912-13b0120095fa"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=61; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 05 Mar 2020 08:49:46 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "0"
-												}
-											],
-											"cookie": [],
-											"body": ""
-										}
-									]
-								},
-								{
-									"name": "Creation of a Pro Forma Invoice 7: Obtain the Status of the Long-Running Operation",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": ""
-										},
-										"url": {
-											"raw": "{{EndpointURL}}Project/RunProjectBilling/status/9b9b5fdd-e31d-45db-a912-13b0120095fa",
-											"host": [
-												"{{EndpointURL}}Project"
-											],
-											"path": [
-												"RunProjectBilling",
-												"status",
-												"9b9b5fdd-e31d-45db-a912-13b0120095fa"
-											]
-										},
-										"description": "This example shows how to create a pro forma invoice in Acumatica ERP. This process is described in [Creation of a Pro Forma Invoice](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=0dadafe8-c1bc-4a93-a1ec-89cf23692f02)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Pro Forma Invoice: Obtain the Status of the Long-Running Operation",
-											"originalRequest": {
-												"method": "GET",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"url": {
-													"raw": "{{EndpointURL}}Project/RunProjectBilling/status/9b9b5fdd-e31d-45db-a912-13b0120095fa",
-													"host": [
-														"{{EndpointURL}}Project"
-													],
-													"path": [
-														"RunProjectBilling",
-														"status",
-														"9b9b5fdd-e31d-45db-a912-13b0120095fa"
-													]
-												}
-											},
-											"status": "No Content",
-											"code": 204,
-											"_postman_previewlanguage": "plain",
-											"header": [
-												{
-													"key": "Location",
-													"value": "/IntegrationDevelopmentGuide/entity/Default/18.200.001/Project/6adb22c3-bb5e-ea11-9ff9-4ccc6a8eefea"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 05 Mar 2020 08:50:43 GMT"
-												}
-											],
-											"cookie": [],
-											"body": ""
-										}
-									]
-								},
-								{
-									"name": "Creation of a Pro Forma Invoice 8: Obtain the List of Pro Forma Invoices",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": ""
-										},
-										"url": {
-											"raw": "{{EndpointURL}}Project/TESTPR3?$expand=Invoices",
-											"host": [
-												"{{EndpointURL}}Project"
-											],
-											"path": [
-												"TESTPR3"
-											],
-											"query": [
-												{
-													"key": "$expand",
-													"value": "Invoices"
-												}
-											]
-										},
-										"description": "This example shows how to create a pro forma invoice in Acumatica ERP. This process is described in [Creation of a Pro Forma Invoice](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=0dadafe8-c1bc-4a93-a1ec-89cf23692f02)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Pro Forma Invoice: Obtain the List of Pro Forma Invoices",
-											"originalRequest": {
-												"method": "GET",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"url": {
-													"raw": "{{EndpointURL}}Project/TESTPR3?$expand=Invoices",
-													"host": [
-														"{{EndpointURL}}Project"
-													],
-													"path": [
-														"TESTPR3"
-													],
-													"query": [
-														{
-															"key": "$expand",
-															"value": "Invoices"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 05 Mar 2020 08:51:08 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "894"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"6adb22c3-bb5e-ea11-9ff9-4ccc6a8eefea\",\n    \"rowNumber\": 1,\n    \"note\": \"\",\n    \"Customer\": {\n        \"value\": \"COFFEESHOP\"\n    },\n    \"Description\": {\n        \"value\": \"A juicer with the installation and training\"\n    },\n    \"ExternalRefNbr\": {},\n    \"Hold\": {\n        \"value\": false\n    },\n    \"Invoices\": [\n        {\n            \"id\": \"460c5cff-7acf-42d1-9844-612c3a5ecef1\",\n            \"rowNumber\": 1,\n            \"note\": null,\n            \"ARDocDate\": {},\n            \"ARDocDescription\": {},\n            \"ARDocOriginalAmount\": {},\n            \"ARDocStatus\": {},\n            \"ARDocType\": {},\n            \"ARReferenceNbr\": {},\n            \"BillingNbr\": {\n                \"value\": 1\n            },\n            \"Description\": {\n                \"value\": \"Invoice for TESTPR3\"\n            },\n            \"InvoiceTotal\": {\n                \"value\": 725\n            },\n            \"OpenARBalance\": {},\n            \"OriginalRefNbr\": {},\n            \"ProFormaDate\": {\n                \"value\": \"2019-09-15T00:00:00+03:00\"\n            },\n            \"ProFormaReferenceNbr\": {\n                \"value\": \"000005\"\n            },\n            \"Status\": {\n                \"value\": \"On Hold\"\n            },\n            \"custom\": {},\n            \"files\": []\n        }\n    ],\n    \"LastModifiedDateTime\": {\n        \"value\": \"2020-03-05T03:49:48.74+03:00\"\n    },\n    \"ProjectID\": {\n        \"value\": \"TESTPR3\"\n    },\n    \"ProjectTemplateID\": {\n        \"value\": \"PROGRESS\"\n    },\n    \"Status\": {\n        \"value\": \"Active\"\n    },\n    \"custom\": {},\n    \"files\": []\n}"
-										}
-									]
-								},
-								{
-									"name": "Creation of a Pro Forma Invoice 9: Email Pro Forma Invoice",
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"entity\" : {\r\n    \"RefNbr\": {\r\n        \"value\": \"000005\"\r\n    }\r\n  }\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}ProFormaInvoice/EmailProFormaInvoice",
-											"host": [
-												"{{EndpointURL}}ProFormaInvoice"
-											],
-											"path": [
-												"EmailProFormaInvoice"
-											]
-										},
-										"description": "This example shows how to create a pro forma invoice in Acumatica ERP. This process is described in [Creation of a Pro Forma Invoice](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=0dadafe8-c1bc-4a93-a1ec-89cf23692f02)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Pro Forma Invoice: Email Pro Forma Invoice",
-											"originalRequest": {
-												"method": "POST",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n  \"entity\" : {\r\n    \"RefNbr\": {\r\n        \"value\": \"000005\"\r\n    }\r\n  }\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}ProFormaInvoice/EmailProFormaInvoice",
-													"host": [
-														"{{EndpointURL}}ProFormaInvoice"
-													],
-													"path": [
-														"EmailProFormaInvoice"
-													]
-												}
-											},
-											"status": "Accepted",
-											"code": 202,
-											"_postman_previewlanguage": "plain",
-											"header": [
-												{
-													"key": "Location",
-													"value": "/IntegrationDevelopmentGuide/entity/Default/18.200.001/ProFormaInvoice/EmailProFormaInvoice/status/c69a3717-d389-477f-b7bb-6403c68ce8fc"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=62; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 05 Mar 2020 08:52:00 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "0"
-												}
-											],
-											"cookie": [],
-											"body": ""
-										}
-									]
-								},
-								{
-									"name": "Creation of a Pro Forma Invoice 10: Obtain the Status of the Long-Running Operation",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": ""
-										},
-										"url": {
-											"raw": "{{EndpointURL}}ProFormaInvoice/EmailProFormaInvoice/status/c69a3717-d389-477f-b7bb-6403c68ce8fc",
-											"host": [
-												"{{EndpointURL}}ProFormaInvoice"
-											],
-											"path": [
-												"EmailProFormaInvoice",
-												"status",
-												"c69a3717-d389-477f-b7bb-6403c68ce8fc"
-											]
-										},
-										"description": "This example shows how to create a pro forma invoice in Acumatica ERP. This process is described in [Creation of a Pro Forma Invoice](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=0dadafe8-c1bc-4a93-a1ec-89cf23692f02)."
-									},
-									"response": [
-										{
-											"name": "Creation of a Pro Forma Invoice: Obtain the Status of the Long-Running Operation",
-											"originalRequest": {
-												"method": "GET",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"url": {
-													"raw": "{{EndpointURL}}ProFormaInvoice/EmailProFormaInvoice/status/c69a3717-d389-477f-b7bb-6403c68ce8fc",
-													"host": [
-														"{{EndpointURL}}ProFormaInvoice"
-													],
-													"path": [
-														"EmailProFormaInvoice",
-														"status",
-														"c69a3717-d389-477f-b7bb-6403c68ce8fc"
-													]
-												}
-											},
-											"status": "No Content",
-											"code": 204,
-											"_postman_previewlanguage": "plain",
-											"header": [
-												{
-													"key": "Location",
-													"value": "/IntegrationDevelopmentGuide/entity/Default/18.200.001/ProFormaInvoice/25c03d43-be5e-ea11-9ff9-4ccc6a8eefea"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 05 Mar 2020 08:52:38 GMT"
-												}
-											],
-											"cookie": [],
-											"body": ""
-										}
-									]
-								},
 								{
 									"name": "Management of Account Groups 1: Create an Account Group",
 									"request": {
@@ -8521,7 +7243,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n  \"AccountGroupID\" : {\"value\" : \"ACCG02\"},\r\n  \"Description\" : {value: \"Test Account Group\"}\r\n}"
+											"raw": "{\r\n  \"AccountGroupID\" : {\"value\" : \"ACCG02\"},\r\n  \"Description\" : {\"value\": \"Test Account Group\"}\r\n}"
 										},
 										"url": {
 											"raw": "{{EndpointURL}}AccountGroup",
@@ -8533,7 +7255,7 @@
 									},
 									"response": [
 										{
-											"name": "Management of Account Groups: Create an Account Group",
+											"name": "Management of Account Groups 1: Create an Account Group",
 											"originalRequest": {
 												"method": "PUT",
 												"header": [
@@ -8550,7 +7272,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n  \"AccountGroupID\" : {\"value\" : \"ACCG02\"},\r\n  \"Description\" : {value: \"Test Account Group\"}\r\n}"
+													"raw": "{\r\n  \"AccountGroupID\" : {\"value\" : \"ACCG02\"},\r\n  \"Description\" : {\"value\": \"Test Account Group\"}\r\n}"
 												},
 												"url": {
 													"raw": "{{EndpointURL}}AccountGroup",
@@ -8568,40 +7290,40 @@
 													"value": "application/json; charset=utf-8"
 												},
 												{
-													"key": "Server",
-													"value": "Microsoft-IIS/10.0"
-												},
-												{
-													"key": "X-Handled-By",
-													"value": "Acumatica-PX.Export/AuthenticationManagerModule"
+													"key": "Set-Cookie",
+													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
+													"value": "UserBranch=2; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "UserBranch=3; path=/"
+													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "requestid=335; path=/"
+													"value": "UserBranch=2; path=/"
 												},
 												{
-													"key": "X-Powered-By",
-													"value": "ASP.NET"
+													"key": "Set-Cookie",
+													"value": "requestid=C34018A62898F19D11EBF566A0D3FCB8; path=/"
+												},
+												{
+													"key": "Set-Cookie",
+													"value": "requeststat=+st:41090+sc:~/entity/default/20.200.001/accountgroup+start:637637074708648760+tg:; path=/"
 												},
 												{
 													"key": "Date",
-													"value": "Thu, 15 Aug 2019 12:38:07 GMT"
+													"value": "Wed, 04 Aug 2021 20:58:31 GMT"
 												},
 												{
 													"key": "Content-Length",
-													"value": "297"
+													"value": "286"
 												}
 											],
 											"cookie": [],
-											"body": "{\n    \"id\": \"3a053d87-59bf-e911-9fe5-4ccc6a8eefea\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"AccountGroupID\": {\n        \"value\": \"ACCG02\"\n    },\n    \"Active\": {\n        \"value\": true\n    },\n    \"DefaultAccountID\": {},\n    \"Description\": {\n        \"value\": \"Test Account Group\"\n    },\n    \"Expense\": {\n        \"value\": true\n    },\n    \"SortOrder\": {\n        \"value\": 4\n    },\n    \"Type\": {\n        \"value\": \"Expense\"\n    },\n    \"custom\": {},\n    \"files\": []\n}"
+											"body": "{\n    \"id\": \"ba00c4b8-66f5-eb11-9df1-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"AccountGroupID\": {\n        \"value\": \"ACCG02\"\n    },\n    \"Active\": {\n        \"value\": true\n    },\n    \"DefaultAccountID\": {},\n    \"Description\": {\n        \"value\": \"Test Account Group\"\n    },\n    \"Expense\": {\n        \"value\": true\n    },\n    \"SortOrder\": {\n        \"value\": 4\n    },\n    \"Type\": {\n        \"value\": \"Expense\"\n    },\n    \"custom\": {}\n}"
 										}
 									]
 								},
@@ -8623,7 +7345,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40000\"},\r\n  \"AccountGroup\" : {value: \"ACCG02\"}\r\n}"
+											"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40000\"},\r\n  \"AccountGroup\" : {\"value\": \"ACCG02\"}\r\n}"
 										},
 										"url": {
 											"raw": "{{EndpointURL}}Account",
@@ -8635,7 +7357,7 @@
 									},
 									"response": [
 										{
-											"name": "Management of Account Groups: Add Account 1 to the Group",
+											"name": "Management of Account Groups 2: Add Account 1 to the Group",
 											"originalRequest": {
 												"method": "PUT",
 												"header": [
@@ -8652,7 +7374,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40000\"},\r\n  \"AccountGroup\" : {value: \"ACCG02\"}\r\n}"
+													"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40000\"},\r\n  \"AccountGroup\" : {\"value\": \"ACCG02\"}\r\n}"
 												},
 												"url": {
 													"raw": "{{EndpointURL}}Account",
@@ -8670,40 +7392,40 @@
 													"value": "application/json; charset=utf-8"
 												},
 												{
-													"key": "Server",
-													"value": "Microsoft-IIS/10.0"
-												},
-												{
-													"key": "X-Handled-By",
-													"value": "Acumatica-PX.Export/AuthenticationManagerModule"
+													"key": "Set-Cookie",
+													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
+													"value": "UserBranch=2; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "UserBranch=3; path=/"
+													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "requestid=336; path=/"
+													"value": "UserBranch=2; path=/"
 												},
 												{
-													"key": "X-Powered-By",
-													"value": "ASP.NET"
+													"key": "Set-Cookie",
+													"value": "requestid=C34018A62898F19D11EBF56775456130; path=/"
+												},
+												{
+													"key": "Set-Cookie",
+													"value": "requeststat=+st:8013+sc:~/entity/default/20.200.001/account+start:637637078272849840+tg:; path=/"
 												},
 												{
 													"key": "Date",
-													"value": "Thu, 15 Aug 2019 12:40:23 GMT"
+													"value": "Wed, 04 Aug 2021 21:03:55 GMT"
 												},
 												{
 													"key": "Content-Length",
-													"value": "626"
+													"value": "612"
 												}
 											],
 											"cookie": [],
-											"body": "{\n    \"id\": \"89fd773c-5adb-e811-b816-00155d408001\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"AccountCD\": {\n        \"value\": \"40000\"\n    },\n    \"AccountClass\": {\n        \"value\": \"SALES\"\n    },\n    \"AccountGroup\": {\n        \"value\": \"ACCG02\"\n    },\n    \"AccountID\": {\n        \"value\": 26\n    },\n    \"Active\": {\n        \"value\": true\n    },\n    \"CashAccount\": {\n        \"value\": false\n    },\n    \"ChartOfAccountsOrder\": {\n        \"value\": 3\n    },\n    \"CreatedDateTime\": {\n        \"value\": \"2018-10-29T08:10:27.07+03:00\"\n    },\n    \"CurrencyID\": {},\n    \"Description\": {\n        \"value\": \"Sales Revenue\"\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2019-08-15T08:40:23.123+03:00\"\n    },\n    \"PostOption\": {\n        \"value\": \"Summary\"\n    },\n    \"RequireUnits\": {\n        \"value\": false\n    },\n    \"RevaluationRateType\": {},\n    \"Secured\": {\n        \"value\": false\n    },\n    \"Type\": {\n        \"value\": \"Income\"\n    },\n    \"custom\": {},\n    \"files\": []\n}"
+											"body": "{\n    \"id\": \"89fd773c-5adb-e811-b816-00155d408001\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"AccountCD\": {\n        \"value\": \"40000\"\n    },\n    \"AccountClass\": {\n        \"value\": \"SALES\"\n    },\n    \"AccountGroup\": {\n        \"value\": \"ACCG02\"\n    },\n    \"AccountID\": {\n        \"value\": 26\n    },\n    \"Active\": {\n        \"value\": true\n    },\n    \"CashAccount\": {\n        \"value\": false\n    },\n    \"ChartOfAccountsOrder\": {\n        \"value\": 3\n    },\n    \"CreatedDateTime\": {\n        \"value\": \"1900-01-01T03:00:00+03:00\"\n    },\n    \"CurrencyID\": {},\n    \"Description\": {\n        \"value\": \"Sales Revenue\"\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-08-05T00:03:52.603+03:00\"\n    },\n    \"PostOption\": {\n        \"value\": \"Summary\"\n    },\n    \"RequireUnits\": {\n        \"value\": false\n    },\n    \"RevaluationRateType\": {},\n    \"Secured\": {\n        \"value\": false\n    },\n    \"Type\": {\n        \"value\": \"Income\"\n    },\n    \"custom\": {}\n}"
 										}
 									]
 								},
@@ -8725,7 +7447,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40010\"},\r\n  \"AccountGroup\" : {value: \"ACCG02\"}\r\n}"
+											"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40010\"},\r\n  \"AccountGroup\" : {\"value\": \"ACCG02\"}\r\n}"
 										},
 										"url": {
 											"raw": "{{EndpointURL}}Account",
@@ -8737,7 +7459,7 @@
 									},
 									"response": [
 										{
-											"name": "Management of Account Groups: Add Account 2 to the Group",
+											"name": "Management of Account Groups 3: Add Account 2 to the Group",
 											"originalRequest": {
 												"method": "PUT",
 												"header": [
@@ -8754,7 +7476,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40010\"},\r\n  \"AccountGroup\" : {value: \"ACCG02\"}\r\n}"
+													"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40010\"},\r\n  \"AccountGroup\" : {\"value\": \"ACCG02\"}\r\n}"
 												},
 												"url": {
 													"raw": "{{EndpointURL}}Account",
@@ -8772,40 +7494,40 @@
 													"value": "application/json; charset=utf-8"
 												},
 												{
-													"key": "Server",
-													"value": "Microsoft-IIS/10.0"
-												},
-												{
-													"key": "X-Handled-By",
-													"value": "Acumatica-PX.Export/AuthenticationManagerModule"
+													"key": "Set-Cookie",
+													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
+													"value": "UserBranch=2; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "UserBranch=3; path=/"
+													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "requestid=337; path=/"
+													"value": "UserBranch=2; path=/"
 												},
 												{
-													"key": "X-Powered-By",
-													"value": "ASP.NET"
+													"key": "Set-Cookie",
+													"value": "requestid=C34018A62898F19D11EBF56840E364C1; path=/"
+												},
+												{
+													"key": "Set-Cookie",
+													"value": "requeststat=+st:271+sc:~/entity/default/20.200.001/account+start:637637081688980289+tg:; path=/"
 												},
 												{
 													"key": "Date",
-													"value": "Thu, 15 Aug 2019 12:41:16 GMT"
+													"value": "Wed, 04 Aug 2021 21:09:29 GMT"
 												},
 												{
 													"key": "Content-Length",
-													"value": "628"
+													"value": "614"
 												}
 											],
 											"cookie": [],
-											"body": "{\n    \"id\": \"8bfd773c-5adb-e811-b816-00155d408001\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"AccountCD\": {\n        \"value\": \"40010\"\n    },\n    \"AccountClass\": {\n        \"value\": \"SALES\"\n    },\n    \"AccountGroup\": {\n        \"value\": \"ACCG02\"\n    },\n    \"AccountID\": {\n        \"value\": 27\n    },\n    \"Active\": {\n        \"value\": true\n    },\n    \"CashAccount\": {\n        \"value\": false\n    },\n    \"ChartOfAccountsOrder\": {\n        \"value\": 3\n    },\n    \"CreatedDateTime\": {\n        \"value\": \"2018-10-29T08:10:27.087+03:00\"\n    },\n    \"CurrencyID\": {},\n    \"Description\": {\n        \"value\": \"Sales - Freight\"\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2019-08-15T08:41:16.37+03:00\"\n    },\n    \"PostOption\": {\n        \"value\": \"Summary\"\n    },\n    \"RequireUnits\": {\n        \"value\": false\n    },\n    \"RevaluationRateType\": {},\n    \"Secured\": {\n        \"value\": false\n    },\n    \"Type\": {\n        \"value\": \"Income\"\n    },\n    \"custom\": {},\n    \"files\": []\n}"
+											"body": "{\n    \"id\": \"8bfd773c-5adb-e811-b816-00155d408001\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"AccountCD\": {\n        \"value\": \"40010\"\n    },\n    \"AccountClass\": {\n        \"value\": \"SALES\"\n    },\n    \"AccountGroup\": {\n        \"value\": \"ACCG02\"\n    },\n    \"AccountID\": {\n        \"value\": 27\n    },\n    \"Active\": {\n        \"value\": true\n    },\n    \"CashAccount\": {\n        \"value\": false\n    },\n    \"ChartOfAccountsOrder\": {\n        \"value\": 3\n    },\n    \"CreatedDateTime\": {\n        \"value\": \"1900-01-01T03:00:00+03:00\"\n    },\n    \"CurrencyID\": {},\n    \"Description\": {\n        \"value\": \"Sales - Freight\"\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-08-05T00:09:29.067+03:00\"\n    },\n    \"PostOption\": {\n        \"value\": \"Summary\"\n    },\n    \"RequireUnits\": {\n        \"value\": false\n    },\n    \"RevaluationRateType\": {},\n    \"Secured\": {\n        \"value\": false\n    },\n    \"Type\": {\n        \"value\": \"Income\"\n    },\n    \"custom\": {}\n}"
 										}
 									]
 								},
@@ -8827,7 +7549,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n  \"DefaultAccountID\" : {\"value\" : \"40000\"},\r\n  \"AccountGroupID\" : {value: \"ACCG02\"}\r\n}"
+											"raw": "{\r\n  \"DefaultAccountID\" : {\"value\" : \"40000\"},\r\n  \"AccountGroupID\" : {\"value\": \"ACCG02\"}\r\n}"
 										},
 										"url": {
 											"raw": "{{EndpointURL}}AccountGroup",
@@ -8839,7 +7561,7 @@
 									},
 									"response": [
 										{
-											"name": "Management of Account Groups: Specify the Default Account",
+											"name": "Management of Account Groups 4: Specify the Default Account",
 											"originalRequest": {
 												"method": "PUT",
 												"header": [
@@ -8856,7 +7578,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n  \"DefaultAccountID\" : {\"value\" : \"40000\"},\r\n  \"AccountGroupID\" : {value: \"ACCG02\"}\r\n}"
+													"raw": "{\r\n  \"DefaultAccountID\" : {\"value\" : \"40000\"},\r\n  \"AccountGroupID\" : {\"value\": \"ACCG02\"}\r\n}"
 												},
 												"url": {
 													"raw": "{{EndpointURL}}AccountGroup",
@@ -8874,40 +7596,40 @@
 													"value": "application/json; charset=utf-8"
 												},
 												{
-													"key": "Server",
-													"value": "Microsoft-IIS/10.0"
-												},
-												{
-													"key": "X-Handled-By",
-													"value": "Acumatica-PX.Export/AuthenticationManagerModule"
+													"key": "Set-Cookie",
+													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
+													"value": "UserBranch=2; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "UserBranch=3; path=/"
+													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "requestid=338; path=/"
+													"value": "UserBranch=2; path=/"
 												},
 												{
-													"key": "X-Powered-By",
-													"value": "ASP.NET"
+													"key": "Set-Cookie",
+													"value": "requestid=C34018A62898F19D11EBF568617E9D31; path=/"
+												},
+												{
+													"key": "Set-Cookie",
+													"value": "requeststat=+st:1067+sc:~/entity/default/20.200.001/accountgroup+start:637637082236023729+tg:; path=/"
 												},
 												{
 													"key": "Date",
-													"value": "Thu, 15 Aug 2019 12:42:25 GMT"
+													"value": "Wed, 04 Aug 2021 21:10:24 GMT"
 												},
 												{
 													"key": "Content-Length",
-													"value": "312"
+													"value": "301"
 												}
 											],
 											"cookie": [],
-											"body": "{\n    \"id\": \"3a053d87-59bf-e911-9fe5-4ccc6a8eefea\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"AccountGroupID\": {\n        \"value\": \"ACCG02\"\n    },\n    \"Active\": {\n        \"value\": true\n    },\n    \"DefaultAccountID\": {\n        \"value\": \"40000\"\n    },\n    \"Description\": {\n        \"value\": \"Test Account Group\"\n    },\n    \"Expense\": {\n        \"value\": true\n    },\n    \"SortOrder\": {\n        \"value\": 4\n    },\n    \"Type\": {\n        \"value\": \"Expense\"\n    },\n    \"custom\": {},\n    \"files\": []\n}"
+											"body": "{\n    \"id\": \"ba00c4b8-66f5-eb11-9df1-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"AccountGroupID\": {\n        \"value\": \"ACCG02\"\n    },\n    \"Active\": {\n        \"value\": true\n    },\n    \"DefaultAccountID\": {\n        \"value\": \"40000\"\n    },\n    \"Description\": {\n        \"value\": \"Test Account Group\"\n    },\n    \"Expense\": {\n        \"value\": true\n    },\n    \"SortOrder\": {\n        \"value\": 4\n    },\n    \"Type\": {\n        \"value\": \"Expense\"\n    },\n    \"custom\": {}\n}"
 										}
 									]
 								},
@@ -9046,7 +7768,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40010\"},\r\n  \"AccountGroup\" : {value: null}\r\n}"
+											"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40010\"},\r\n  \"AccountGroup\" : {\"value\": null}\r\n}"
 										},
 										"url": {
 											"raw": "{{EndpointURL}}Account",
@@ -9058,7 +7780,7 @@
 									},
 									"response": [
 										{
-											"name": "Management of Account Groups: Remove an Account from the Group",
+											"name": "Management of Account Groups 6: Remove an Account from the Group",
 											"originalRequest": {
 												"method": "PUT",
 												"header": [
@@ -9075,7 +7797,7 @@
 												],
 												"body": {
 													"mode": "raw",
-													"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40010\"},\r\n  \"AccountGroup\" : {value: null}\r\n}"
+													"raw": "{\r\n  \"AccountCD\" : {\"value\" : \"40010\"},\r\n  \"AccountGroup\" : {\"value\": null}\r\n}"
 												},
 												"url": {
 													"raw": "{{EndpointURL}}Account",
@@ -9093,126 +7815,12 @@
 													"value": "application/json; charset=utf-8"
 												},
 												{
-													"key": "Server",
-													"value": "Microsoft-IIS/10.0"
-												},
-												{
-													"key": "X-Handled-By",
-													"value": "Acumatica-PX.Export/AuthenticationManagerModule"
+													"key": "Set-Cookie",
+													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=3; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=339; path=/"
-												},
-												{
-													"key": "X-Powered-By",
-													"value": "ASP.NET"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 15 Aug 2019 12:45:26 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "612"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"8bfd773c-5adb-e811-b816-00155d408001\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"AccountCD\": {\n        \"value\": \"40010\"\n    },\n    \"AccountClass\": {\n        \"value\": \"SALES\"\n    },\n    \"AccountGroup\": {},\n    \"AccountID\": {\n        \"value\": 27\n    },\n    \"Active\": {\n        \"value\": true\n    },\n    \"CashAccount\": {\n        \"value\": false\n    },\n    \"ChartOfAccountsOrder\": {\n        \"value\": 3\n    },\n    \"CreatedDateTime\": {\n        \"value\": \"2018-10-29T08:10:27.087+03:00\"\n    },\n    \"CurrencyID\": {},\n    \"Description\": {\n        \"value\": \"Sales - Freight\"\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2019-08-15T08:45:26.48+03:00\"\n    },\n    \"PostOption\": {\n        \"value\": \"Summary\"\n    },\n    \"RequireUnits\": {\n        \"value\": false\n    },\n    \"RevaluationRateType\": {},\n    \"Secured\": {\n        \"value\": false\n    },\n    \"Type\": {\n        \"value\": \"Income\"\n    },\n    \"custom\": {},\n    \"files\": []\n}"
-										}
-									]
-								},
-								{
-									"name": "Running of Project Billing 1: Retrieve the List of Projects",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"InvoiceDate\" : {\"value\" : \"2019-08-15T00:00:00.000\"}\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}ProjectBilling?$expand=Details",
-											"host": [
-												"{{EndpointURL}}ProjectBilling"
-											],
-											"query": [
-												{
-													"key": "$expand",
-													"value": "Details"
-												}
-											]
-										},
-										"description": "This example shows how to run project billing. This process is described in [Running of Project Billing](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=5e9d5d74-2b0b-4b7e-809e-88d7d4a9dd10)."
-									},
-									"response": [
-										{
-											"name": "Running of Project Billing 1: Retrieve the List of Projects",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n  \"InvoiceDate\" : {\"value\" : \"2019-08-15T00:00:00.000\"}\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}ProjectBilling?$expand=Details",
-													"host": [
-														"{{EndpointURL}}ProjectBilling"
-													],
-													"query": [
-														{
-															"key": "$expand",
-															"value": "Details"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": ".ASPXAUTH=894ECDA87025C9823AE0D64A014F28A5F31A1F594B0603A9B67BC47AF3863DFA946CF1ABE0479D3F02510B28710C11E6E44ED68E747C31D266B1D4064A1497B6E822EDC68F50256EA07B573A2FC6956D702365D9BD968DBE8609D75D6C7B4779ABD2809EF4639D58EE15D31CEB671FBFB6821709; path=/; HttpOnly"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": ".ASPXAUTH=894ECDA87025C9823AE0D64A014F28A5F31A1F594B0603A9B67BC47AF3863DFA946CF1ABE0479D3F02510B28710C11E6E44ED68E747C31D266B1D4064A1497B6E822EDC68F50256EA07B573A2FC6956D702365D9BD968DBE8609D75D6C7B4779ABD2809EF4639D58EE15D31CEB671FBFB6821709; path=/; HttpOnly"
+													"value": "UserBranch=2; path=/"
 												},
 												{
 													"key": "Set-Cookie",
@@ -9224,513 +7832,23 @@
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898CF9D11EB662F770AC8BE; path=/"
+													"value": "requestid=C34018A62898F19D11EBF56929CB0DA2; path=/"
 												},
 												{
 													"key": "Set-Cookie",
-													"value": "requeststat=+st:41+sc:~/entity/default/20.200.001/projectbilling+start:637479607621623614+tg:; path=/"
+													"value": "requeststat=+st:520+sc:~/entity/default/20.200.001/account+start:637637085596476450+tg:; path=/"
 												},
 												{
 													"key": "Date",
-													"value": "Wed, 03 Feb 2021 14:52:42 GMT"
+													"value": "Wed, 04 Aug 2021 21:16:00 GMT"
 												},
 												{
 													"key": "Content-Length",
-													"value": "554"
+													"value": "598"
 												}
 											],
 											"cookie": [],
-											"body": "{\n    \"id\": \"4fdcb124-a2d5-4ee2-80e4-d94f094aa44b\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"Customer\": {},\n    \"CustomerClass\": {},\n    \"Details\": [\n        {\n            \"id\": \"0483cdab-9237-42a3-9134-73732344d3c3\",\n            \"rowNumber\": 1,\n            \"note\": null,\n            \"CustomerID\": {\n                \"value\": \"HMBAKERY\"\n            },\n            \"Description\": {\n                \"value\": \"Juicers with the installation and training for employees\"\n            },\n            \"From\": {},\n            \"LastBillingDate\": {},\n            \"ProjectID\": {\n                \"value\": \"HMBAKERY5\"\n            },\n            \"Selected\": {\n                \"value\": false\n            },\n            \"To\": {},\n            \"custom\": {}\n        }\n    ],\n    \"InvoiceDate\": {\n        \"value\": \"2019-08-15T00:00:00+03:00\"\n    },\n    \"PostPeriod\": {\n        \"value\": \"082019\"\n    },\n    \"ProjectTemplate\": {},\n    \"StatementCycle\": {},\n    \"custom\": {}\n}"
-										}
-									]
-								},
-								{
-									"name": "Running of Project Billing 2: Invoke Billing for Selected Projects",
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"entity\" : \r\n  {\r\n    \"id\": \"4fdcb124-a2d5-4ee2-80e4-d94f094aa44b\",\r\n    \"Details\": [\r\n        {\r\n            \"id\": \"0483cdab-9237-42a3-9134-73732344d3c3\",\r\n            \"Selected\": {\r\n                \"value\": true\r\n            }\r\n        }\r\n    ]\r\n}\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcess",
-											"host": [
-												"{{EndpointURL}}ProjectBilling"
-											],
-											"path": [
-												"ProjectBillingProcess"
-											]
-										},
-										"description": "This example shows how to run project billing for multiple projects. This process is described in [Running of Project Billing](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=5e9d5d74-2b0b-4b7e-809e-88d7d4a9dd10)."
-									},
-									"response": [
-										{
-											"name": "Running of Project Billing 2: Invoke Billing for Selected Projects",
-											"originalRequest": {
-												"method": "POST",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n  \"entity\" : \r\n  {\r\n    \"id\": \"4fdcb124-a2d5-4ee2-80e4-d94f094aa44b\",\r\n    \"Details\": [\r\n        {\r\n            \"id\": \"0483cdab-9237-42a3-9134-73732344d3c3\",\r\n            \"Selected\": {\r\n                \"value\": true\r\n            }\r\n        }\r\n    ]\r\n}\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcess",
-													"host": [
-														"{{EndpointURL}}ProjectBilling"
-													],
-													"path": [
-														"ProjectBillingProcess"
-													]
-												}
-											},
-											"status": "Accepted",
-											"code": 202,
-											"_postman_previewlanguage": "plain",
-											"header": [
-												{
-													"key": "Location",
-													"value": "/AcumaticaERP/entity/Default/20.200.001/ProjectBilling/ProjectBillingProcess/status/4b1d6b87-257d-4831-bf86-f33cdfcfbd7a"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898CF9D11EB662FA84E535C; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:105+sc:~/entity/default/20.200.001/projectbilling/projectbillingprocess+start:637479608448143564+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Wed, 03 Feb 2021 14:54:04 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "0"
-												}
-											],
-											"cookie": [],
-											"body": ""
-										}
-									]
-								},
-								{
-									"name": "Running of Project Billing 3: Invoke Billing for All Projects",
-									"request": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"entity\" : \r\n  {\r\n  }\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcessAll",
-											"host": [
-												"{{EndpointURL}}ProjectBilling"
-											],
-											"path": [
-												"ProjectBillingProcessAll"
-											]
-										},
-										"description": "This example shows how to run project billing for multiple projects. This process is described in [Running of Project Billing](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=5e9d5d74-2b0b-4b7e-809e-88d7d4a9dd10)."
-									},
-									"response": [
-										{
-											"name": "Running of Project Billing 3: Invoke Billing for All Projects",
-											"originalRequest": {
-												"method": "POST",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n  \"entity\" : \r\n  {\r\n  }\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcessAll",
-													"host": [
-														"{{EndpointURL}}ProjectBilling"
-													],
-													"path": [
-														"ProjectBillingProcessAll"
-													]
-												}
-											},
-											"status": "Accepted",
-											"code": 202,
-											"_postman_previewlanguage": "plain",
-											"header": [
-												{
-													"key": "Location",
-													"value": "/AcumaticaERP/entity/Default/20.200.001/ProjectBilling/ProjectBillingProcessAll/status/dfb71bc4-bd87-4e8f-b4fe-10416b313f6c"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898CF9D11EB662FC24E640A; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:186+sc:~/entity/default/20.200.001/projectbilling/projectbillingprocessall+start:637479608884345482+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Wed, 03 Feb 2021 14:54:48 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "0"
-												}
-											],
-											"cookie": [],
-											"body": ""
-										}
-									]
-								},
-								{
-									"name": "Running of Project Billing 4: Obtain the Status of the Long-Running Operation",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": ""
-										},
-										"url": {
-											"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcess/status/dcb99006-caa4-4dc2-953a-1dc0331f95b1",
-											"host": [
-												"{{EndpointURL}}ProjectBilling"
-											],
-											"path": [
-												"ProjectBillingProcess",
-												"status",
-												"dcb99006-caa4-4dc2-953a-1dc0331f95b1"
-											]
-										},
-										"description": "This example shows how to run project billing for multiple projects. This process is described in [Running of Project Billing](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=5e9d5d74-2b0b-4b7e-809e-88d7d4a9dd10)."
-									},
-									"response": [
-										{
-											"name": "Running of Project Billing 4: Obtain the Status of the Long-Running Operation",
-											"originalRequest": {
-												"method": "GET",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"url": {
-													"raw": "{{EndpointURL}}ProjectBilling/ProjectBillingProcess/status/dcb99006-caa4-4dc2-953a-1dc0331f95b1",
-													"host": [
-														"{{EndpointURL}}ProjectBilling"
-													],
-													"path": [
-														"ProjectBillingProcess",
-														"status",
-														"dcb99006-caa4-4dc2-953a-1dc0331f95b1"
-													]
-												}
-											},
-											"status": "No Content",
-											"code": 204,
-											"_postman_previewlanguage": "plain",
-											"header": [
-												{
-													"key": "Location",
-													"value": "/IntegrationDevelopmentGuide/entity/Default/18.200.001/ProjectBilling/24c71ef0-f874-43af-8ce7-e885548ecac2"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=2; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Thu, 05 Mar 2020 09:22:24 GMT"
-												}
-											],
-											"cookie": [],
-											"body": ""
-										}
-									]
-								},
-								{
-									"name": "Time Entry",
-									"request": {
-										"method": "PUT",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\r\n  \"Summary\" : {\"value\" : \"Time entry summary\"},\r\n  \"Date\" : {\"value\" : \"2020-08-17T05:50:43.233\" },\r\n  \"Time\" : {\"value\" : \"2020-08-17T05:50:43.233\" },\r\n  \"Employee\" : {\"value\" : \"EP00000002\" },\r\n  \"ProjectID\" : {\"value\" : \"TOMYUM1\" },\r\n  \"ProjectTaskID\" : {\"value\" : \"PHASE1\" },\r\n  \"CostCode\" : {\"value\" : \"00-000\" },\r\n  \"EarningType\" : {\"value\" : \"RG\" },\r\n  \"TimeSpent\" : {\"value\" : \"01:30\" },\r\n  \"BillableTime\" : {\"value\" : \"00:30\" }\r\n}"
-										},
-										"url": {
-											"raw": "{{EndpointURL}}TimeEntry",
-											"host": [
-												"{{EndpointURL}}TimeEntry"
-											]
-										},
-										"description": "This example shows how to specify the time spent on the tasks of projects. This process is described in [Time Entry](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=847b54c3-116e-47b1-89af-14a19cc5855a)."
-									},
-									"response": [
-										{
-											"name": "Time Entry",
-											"originalRequest": {
-												"method": "PUT",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"body": {
-													"mode": "raw",
-													"raw": "{\r\n  \"Summary\" : {\"value\" : \"Time entry summary\"},\r\n  \"Date\" : {\"value\" : \"2020-08-17T05:50:43.233\" },\r\n  \"Time\" : {\"value\" : \"2020-08-17T05:50:43.233\" },\r\n  \"Employee\" : {\"value\" : \"EP00000002\" },\r\n  \"ProjectID\" : {\"value\" : \"TOMYUM1\" },\r\n  \"ProjectTaskID\" : {\"value\" : \"PHASE1\" },\r\n  \"CostCode\" : {\"value\" : \"00-000\" },\r\n  \"EarningType\" : {\"value\" : \"RG\" },\r\n  \"TimeSpent\" : {\"value\" : \"01:30\" },\r\n  \"BillableTime\" : {\"value\" : \"00:30\" }\r\n}"
-												},
-												"url": {
-													"raw": "{{EndpointURL}}TimeEntry",
-													"host": [
-														"{{EndpointURL}}TimeEntry"
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=3; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requestid=C34018A62898CF9D11EB665E6D21043D; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "requeststat=+st:8230+sc:~/entity/default/20.200.001/timeentry+start:637479809400924682+tg:; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Wed, 03 Feb 2021 20:29:08 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "831"
-												}
-											],
-											"cookie": [],
-											"body": "{\n    \"id\": \"9b8c7774-5e66-eb11-9dcf-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"ApprovalStatus\": {\n        \"value\": \"Open\"\n    },\n    \"Approver\": {},\n    \"Billable\": {\n        \"value\": true\n    },\n    \"BillableOvertime\": {\n        \"value\": \"00:00\"\n    },\n    \"BillableTime\": {\n        \"value\": \"00:30\"\n    },\n    \"CertifiedJob\": {\n        \"value\": false\n    },\n    \"CostCode\": {\n        \"value\": \"00000\"\n    },\n    \"CostRate\": {},\n    \"Date\": {\n        \"value\": \"2020-08-17T00:00:00+03:00\"\n    },\n    \"EarningType\": {\n        \"value\": \"RG\"\n    },\n    \"Employee\": {\n        \"value\": \"EP00000002\"\n    },\n    \"ExternalRefNbr\": {},\n    \"LaborItem\": {\n        \"value\": \"CONSULTSR\"\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-02-03T15:29:08.02+03:00\"\n    },\n    \"Overtime\": {\n        \"value\": \"00:00\"\n    },\n    \"ProjectID\": {\n        \"value\": \"TOMYUM1\"\n    },\n    \"ProjectTaskID\": {\n        \"value\": \"PHASE1\"\n    },\n    \"Summary\": {\n        \"value\": \"Time entry summary\"\n    },\n    \"Time\": {\n        \"value\": \"1900-01-01T05:50:00+03:00\"\n    },\n    \"TimeEntryID\": {\n        \"value\": \"9b8c7774-5e66-eb11-9dcf-9828a61840c3\"\n    },\n    \"TimeSpent\": {\n        \"value\": \"01:30\"\n    },\n    \"UnionLocal\": {},\n    \"WCCCode\": {},\n    \"custom\": {}\n}"
-										}
-									]
-								},
-								{
-									"name": "Search for Time Entry",
-									"protocolProfileBehavior": {
-										"disableBodyPruning": true
-									},
-									"request": {
-										"method": "GET",
-										"header": [
-											{
-												"key": "Accept",
-												"type": "text",
-												"value": "application/json"
-											},
-											{
-												"key": "Content-Type",
-												"type": "text",
-												"value": "application/json"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": ""
-										},
-										"url": {
-											"raw": "{{EndpointURL}}TimeEntry?$filter=cf.DateTime(f='Items.Date') ge datetimeoffset'2020-08-17' and cf.DateTime(f='Items.Date') le datetimeoffset'2020-08-18T23%3A59%3A59.999%2B04%3A00'&$select=Date,ProjectID,TimeSpent,BillableTime",
-											"host": [
-												"{{EndpointURL}}TimeEntry"
-											],
-											"query": [
-												{
-													"key": "$filter",
-													"value": "cf.DateTime(f='Items.Date') ge datetimeoffset'2020-08-17' and cf.DateTime(f='Items.Date') le datetimeoffset'2020-08-18T23%3A59%3A59.999%2B04%3A00'"
-												},
-												{
-													"key": "$select",
-													"value": "Date,ProjectID,TimeSpent,BillableTime"
-												}
-											]
-										},
-										"description": "This example shows how to search for the time entries entered on particular date. This process is described in [Search for Time Entries by Date](https://help.acumatica.com/Help?ScreenId=ShowWiki&pageid=c7576634-c730-42fd-9cc7-03aa85164bb9)."
-									},
-									"response": [
-										{
-											"name": "Search for Time Entry",
-											"originalRequest": {
-												"method": "GET",
-												"header": [
-													{
-														"key": "Accept",
-														"type": "text",
-														"value": "application/json"
-													},
-													{
-														"key": "Content-Type",
-														"type": "text",
-														"value": "application/json"
-													}
-												],
-												"url": {
-													"raw": "{{EndpointURL}}TimeEntry?$filter=cf.DateTime(f='Items.Date') ge datetimeoffset'2020-08-17' and cf.DateTime(f='Items.Date') le datetimeoffset'2020-08-18T23%3A59%3A59.999%2B04%3A00'&$select=Date,ProjectID,TimeSpent,BillableTime",
-													"host": [
-														"{{EndpointURL}}TimeEntry"
-													],
-													"query": [
-														{
-															"key": "$filter",
-															"value": "cf.DateTime(f='Items.Date') ge datetimeoffset'2020-08-17' and cf.DateTime(f='Items.Date') le datetimeoffset'2020-08-18T23%3A59%3A59.999%2B04%3A00'"
-														},
-														{
-															"key": "$select",
-															"value": "Date,ProjectID,TimeSpent,BillableTime"
-														}
-													]
-												}
-											},
-											"status": "OK",
-											"code": 200,
-											"_postman_previewlanguage": "json",
-											"header": [
-												{
-													"key": "Content-Type",
-													"value": "application/json; charset=utf-8"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "Locale=TimeZone=GMTM0500G&Culture=en-US; path=/"
-												},
-												{
-													"key": "Set-Cookie",
-													"value": "UserBranch=3; path=/"
-												},
-												{
-													"key": "Date",
-													"value": "Wed, 03 Feb 2021 20:30:40 GMT"
-												},
-												{
-													"key": "Content-Length",
-													"value": "310"
-												}
-											],
-											"cookie": [],
-											"body": "[\n    {\n        \"id\": \"9b8c7774-5e66-eb11-9dcf-9828a61840c3\",\n        \"rowNumber\": 1,\n        \"note\": {\n            \"value\": \"\"\n        },\n        \"BillableTime\": {\n            \"value\": \"00:30\"\n        },\n        \"Date\": {\n            \"value\": \"2020-08-17T00:00:00+03:00\"\n        },\n        \"ProjectID\": {\n            \"value\": \"TOMYUM1\"\n        },\n        \"TimeSpent\": {\n            \"value\": \"01:30\"\n        },\n        \"custom\": {\n            \"Items\": {\n                \"Date\": {\n                    \"type\": \"CustomDateTimeField\",\n                    \"value\": \"2020-08-17T05:50:00\"\n                }\n            }\n        }\n    }\n]"
+											"body": "{\n    \"id\": \"8bfd773c-5adb-e811-b816-00155d408001\",\n    \"rowNumber\": 1,\n    \"note\": null,\n    \"AccountCD\": {\n        \"value\": \"40010\"\n    },\n    \"AccountClass\": {\n        \"value\": \"SALES\"\n    },\n    \"AccountGroup\": {},\n    \"AccountID\": {\n        \"value\": 27\n    },\n    \"Active\": {\n        \"value\": true\n    },\n    \"CashAccount\": {\n        \"value\": false\n    },\n    \"ChartOfAccountsOrder\": {\n        \"value\": 3\n    },\n    \"CreatedDateTime\": {\n        \"value\": \"1900-01-01T03:00:00+03:00\"\n    },\n    \"CurrencyID\": {},\n    \"Description\": {\n        \"value\": \"Sales - Freight\"\n    },\n    \"LastModifiedDateTime\": {\n        \"value\": \"2021-08-05T00:15:59.827+03:00\"\n    },\n    \"PostOption\": {\n        \"value\": \"Summary\"\n    },\n    \"RequireUnits\": {\n        \"value\": false\n    },\n    \"RevaluationRateType\": {},\n    \"Secured\": {\n        \"value\": false\n    },\n    \"Type\": {\n        \"value\": \"Income\"\n    },\n    \"custom\": {}\n}"
 										}
 									]
 								}
