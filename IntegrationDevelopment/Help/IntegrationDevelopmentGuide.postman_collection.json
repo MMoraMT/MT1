@@ -6866,6 +6866,196 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "Create a Return for Credit Without Validation of the Card Refund Against the Original Transaction",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"CurrencyID\": {\r\n        \"value\": \"USD\"\r\n    },\r\n    \"CustomerID\": {\r\n        \"value\": \"WIDGETCC\"\r\n    },\r\n    \"Date\": {\r\n        \"value\": \"2021-08-19T00:00:00+03:00\"\r\n    },\r\n    \"Hold\": {\r\n                \"value\": false\r\n            },\r\n    \"Details\": [\r\n        {\r\n            \"Branch\": {\r\n                \"value\": \"PRODWHOLE\"\r\n            },\r\n            \"InventoryID\": {\r\n                \"value\": \"AACOMPUT01\"\r\n            },\r\n            \"OrderQty\": {\r\n                \"value\": 5.000000\r\n            },\r\n            \"UnitPrice\": {\r\n                \"value\": 500.000000\r\n            },\r\n            \"UOM\": {\r\n                \"value\": \"EA\"\r\n            },\r\n            \"WarehouseID\": {\r\n                \"value\": \"WHOLESALE\"\r\n            }\r\n         }\r\n    ],\r\n    \"OrderType\": {\r\n        \"value\": \"RC\"\r\n    },\r\n    \"PaymentMethod\": {\r\n        \"value\": \"VISATOK\"\r\n    },\r\n    \"Payments\": [\r\n        {\r\n            \"ApplicationDate\": {\r\n                \"value\": \"2021-08-19T00:00:00+03:00\"\r\n            },\r\n            \"AppliedToOrder\": {\r\n                \"value\": 40.0000\r\n            },\r\n            \"CardAccountNbr\": {\r\n                \"value\": \"VISATOK:****-****-****-1111\"\r\n            },\r\n            \"CashAccount\": {\r\n                \"value\": \"10600\"\r\n            },\r\n            \"Currency\": {\r\n                \"value\": \"USD\"\r\n            },\r\n            \"DocType\": {\r\n                \"value\": \"Customer Refund\"\r\n            },\r\n            \"Hold\": {\r\n                \"value\": false\r\n            },\r\n            \"OrigTransactionNbr\": {\r\n                \"value\": \"60165234282\"\r\n            },\r\n            \"PaymentAmount\": {\r\n                \"value\": 40.0000\r\n            },\r\n            \"PaymentMethod\": {\r\n                \"value\": \"VISATOK\"\r\n            },\r\n            \"PaymentRef\": {\r\n                \"value\": \"601704533664\"\r\n            },\r\n            \"ProcessingCenterID\": {\r\n                \"value\": \"AUTHNETAPI\"\r\n            },\r\n            \"Refund\": {\r\n                \"value\": true\r\n            },\r\n            \"ValidateCCRefundOrigTransaction\": {\r\n                \"value\": false\r\n            }\r\n        }\r\n    ]\r\n}"
+								},
+								"url": {
+									"raw": "{{EndpointURL}}SalesOrder?$expand=Details,Payments",
+									"host": [
+										"{{EndpointURL}}SalesOrder"
+									],
+									"query": [
+										{
+											"key": "$expand",
+											"value": "Details,Payments"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create a Return for Credit Without Validation of the Card Refund Against the Original Transaction",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"CurrencyID\": {\r\n        \"value\": \"USD\"\r\n    },\r\n    \"CustomerID\": {\r\n        \"value\": \"WIDGETCC\"\r\n    },\r\n    \"Date\": {\r\n        \"value\": \"2021-08-19T00:00:00+03:00\"\r\n    },\r\n    \"Hold\": {\r\n                \"value\": false\r\n            },\r\n    \"Details\": [\r\n        {\r\n            \"Branch\": {\r\n                \"value\": \"PRODWHOLE\"\r\n            },\r\n            \"InventoryID\": {\r\n                \"value\": \"AACOMPUT01\"\r\n            },\r\n            \"OrderQty\": {\r\n                \"value\": 5.000000\r\n            },\r\n            \"UnitPrice\": {\r\n                \"value\": 500.000000\r\n            },\r\n            \"UOM\": {\r\n                \"value\": \"EA\"\r\n            },\r\n            \"WarehouseID\": {\r\n                \"value\": \"WHOLESALE\"\r\n            }\r\n         }\r\n    ],\r\n    \"OrderType\": {\r\n        \"value\": \"RC\"\r\n    },\r\n    \"PaymentMethod\": {\r\n        \"value\": \"VISATOK\"\r\n    },\r\n    \"Payments\": [\r\n        {\r\n            \"ApplicationDate\": {\r\n                \"value\": \"2021-08-19T00:00:00+03:00\"\r\n            },\r\n            \"AppliedToOrder\": {\r\n                \"value\": 40.0000\r\n            },\r\n            \"CardAccountNbr\": {\r\n                \"value\": \"VISATOK:****-****-****-1111\"\r\n            },\r\n            \"CashAccount\": {\r\n                \"value\": \"10600\"\r\n            },\r\n            \"Currency\": {\r\n                \"value\": \"USD\"\r\n            },\r\n            \"DocType\": {\r\n                \"value\": \"Customer Refund\"\r\n            },\r\n            \"Hold\": {\r\n                \"value\": false\r\n            },\r\n            \"OrigTransactionNbr\": {\r\n                \"value\": \"60165234282\"\r\n            },\r\n            \"PaymentAmount\": {\r\n                \"value\": 40.0000\r\n            },\r\n            \"PaymentMethod\": {\r\n                \"value\": \"VISATOK\"\r\n            },\r\n            \"PaymentRef\": {\r\n                \"value\": \"601704533664\"\r\n            },\r\n            \"ProcessingCenterID\": {\r\n                \"value\": \"AUTHNETAPI\"\r\n            },\r\n            \"Refund\": {\r\n                \"value\": true\r\n            },\r\n            \"ValidateCCRefundOrigTransaction\": {\r\n                \"value\": \"true\"\r\n            }\r\n        }\r\n    ]\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}SalesOrder?$expand=Details,Payments",
+											"host": [
+												"{{EndpointURL}}SalesOrder"
+											],
+											"query": [
+												{
+													"key": "$expand",
+													"value": "Details,Payments"
+												}
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=16; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=16; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898F59D11EC00FC6C208C16; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:92405+sc:~/entity/default/20.200.001/salesorder+start:637649812697473686+tg:; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 19 Aug 2021 14:49:22 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "5484"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"message\": \"An error has occurred.\",\n    \"exceptionMessage\": \"Inserting  'Sales Order Adjust' record raised at least one error. Please review the errors.\\nAdjdOrderNbr: The AR009872 sales order has no items that were paid with the 60165234282 transaction and can be returned.\",\n    \"exceptionType\": \"PX.Api.ContractBased.OutcomeEntityHasErrorsException\",\n    \"stackTrace\": \"   at System.Monads.ArgumentCheck.Check[TSource](TSource source, Func`2 checkCondition, Func`2 exceptionSource)\\r\\n   at PX.Api.ContractBased.EntityService.GetOperationResult(EntityImpl entity, EntityExportContextBuilder entityExportContextBuilder, PXSYTable exportedKeys, PXOuterException contextError, Boolean throwOnError, Boolean addCancelCommand)\\r\\n   at PX.Api.ContractBased.EntityService.Put(ISystemContract systemContract, String version, String name, EntityImpl entity, CbOperationContext operationContext, Boolean throwOnError)\\r\\n   at PX.Api.ContractBased.Soap.SoapFacadeBase.PutImpl(EntityImpl entity, Boolean throwOnValidationError)\\r\\n   at PX.Api.ContractBased.SystemContracts.V2.RestController.PutEntity(EntityImpl entity, String select, String filter, String expand, String custom)\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_2.<GetExecutor>b__2(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()\"\n}"
+								},
+								{
+									"name": "Create a Return for Credit Without Validation of the Card Refund Against the Original Transaction",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"CurrencyID\": {\r\n        \"value\": \"USD\"\r\n    },\r\n    \"CustomerID\": {\r\n        \"value\": \"WIDGETCC\"\r\n    },\r\n    \"Date\": {\r\n        \"value\": \"2021-08-19T00:00:00+03:00\"\r\n    },\r\n    \"Hold\": {\r\n                \"value\": false\r\n            },\r\n    \"Details\": [\r\n        {\r\n            \"Branch\": {\r\n                \"value\": \"PRODWHOLE\"\r\n            },\r\n            \"InventoryID\": {\r\n                \"value\": \"AACOMPUT01\"\r\n            },\r\n            \"OrderQty\": {\r\n                \"value\": 5.000000\r\n            },\r\n            \"UnitPrice\": {\r\n                \"value\": 500.000000\r\n            },\r\n            \"UOM\": {\r\n                \"value\": \"EA\"\r\n            },\r\n            \"WarehouseID\": {\r\n                \"value\": \"WHOLESALE\"\r\n            }\r\n         }\r\n    ],\r\n    \"OrderType\": {\r\n        \"value\": \"RC\"\r\n    },\r\n    \"PaymentMethod\": {\r\n        \"value\": \"VISATOK\"\r\n    },\r\n    \"Payments\": [\r\n        {\r\n            \"ApplicationDate\": {\r\n                \"value\": \"2021-08-19T00:00:00+03:00\"\r\n            },\r\n            \"AppliedToOrder\": {\r\n                \"value\": 40.0000\r\n            },\r\n            \"CardAccountNbr\": {\r\n                \"value\": \"VISATOK:****-****-****-1111\"\r\n            },\r\n            \"CashAccount\": {\r\n                \"value\": \"10600\"\r\n            },\r\n            \"Currency\": {\r\n                \"value\": \"USD\"\r\n            },\r\n            \"DocType\": {\r\n                \"value\": \"Customer Refund\"\r\n            },\r\n            \"Hold\": {\r\n                \"value\": false\r\n            },\r\n            \"OrigTransactionNbr\": {\r\n                \"value\": \"60165234282\"\r\n            },\r\n            \"PaymentAmount\": {\r\n                \"value\": 40.0000\r\n            },\r\n            \"PaymentMethod\": {\r\n                \"value\": \"VISATOK\"\r\n            },\r\n            \"PaymentRef\": {\r\n                \"value\": \"601704533664\"\r\n            },\r\n            \"ProcessingCenterID\": {\r\n                \"value\": \"AUTHNETAPI\"\r\n            },\r\n            \"Refund\": {\r\n                \"value\": true\r\n            },\r\n            \"ValidateCCRefundOrigTransaction\": {\r\n                \"value\": false\r\n            }\r\n        }\r\n    ]\r\n}"
+										},
+										"url": {
+											"raw": "{{EndpointURL}}SalesOrder?$expand=Details,Payments",
+											"host": [
+												"{{EndpointURL}}SalesOrder"
+											],
+											"query": [
+												{
+													"key": "$expand",
+													"value": "Details,Payments"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=16; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "Locale=TimeZone=GMTP0300M&Culture=en-US; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "UserBranch=16; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requestid=C34018A62898F59D11EC00FCD2408A0C; path=/"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "requeststat=+st:31757+sc:~/entity/default/20.200.001/salesorder+start:637649814410846348+tg:; path=/"
+										},
+										{
+											"key": "Date",
+											"value": "Thu, 19 Aug 2021 14:51:12 GMT"
+										},
+										{
+											"key": "Content-Length",
+											"value": "3597"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"id\": \"0d8a40d2-fc00-ec11-9df5-9828a61840c3\",\n    \"rowNumber\": 1,\n    \"note\": {\n        \"value\": \"\"\n    },\n    \"Approved\": {\n        \"value\": true\n    },\n    \"BaseCurrencyID\": {\n        \"value\": \"USD\"\n    },\n    \"BillToAddressOverride\": {\n        \"value\": false\n    },\n    \"BillToContactOverride\": {\n        \"value\": false\n    },\n    \"CashAccount\": {\n        \"value\": \"10600\"\n    },\n    \"ContactID\": {\n        \"value\": \"Dave Belanger\"\n    },\n    \"ControlTotal\": {\n        \"value\": 2500\n    },\n    \"CreditHold\": {\n        \"value\": false\n    },\n    \"CurrencyID\": {\n        \"value\": \"USD\"\n    },\n    \"CurrencyRate\": {\n        \"value\": 1\n    },\n    \"CurrencyRateTypeID\": {\n        \"value\": \"SPOT\"\n    },\n    \"CustomerID\": {\n        \"value\": \"WIDGETCC\"\n    },\n    \"CustomerOrder\": {},\n    \"Date\": {\n        \"value\": \"2021-08-19T00:00:00+03:00\"\n    },\n    \"Description\": {},\n    \"DestinationWarehouseID\": {},\n    \"Details\": [\n        {\n            \"id\": \"12c50eda-fc00-ec11-9df5-9828a61840c3\",\n            \"rowNumber\": 1,\n            \"note\": null,\n            \"Account\": {\n                \"value\": \"40000\"\n            },\n            \"AlternateID\": {},\n            \"Amount\": {\n                \"value\": 2500\n            },\n            \"AutoCreateIssue\": {\n                \"value\": false\n            },\n            \"AverageCost\": {\n                \"value\": 250\n            },\n            \"Branch\": {\n                \"value\": \"PRODWHOLE\"\n            },\n            \"CalculateDiscountsOnImport\": {},\n            \"Commissionable\": {\n                \"value\": true\n            },\n            \"Completed\": {\n                \"value\": false\n            },\n            \"DiscountAmount\": {\n                \"value\": 0\n            },\n            \"DiscountCode\": {},\n            \"DiscountedUnitPrice\": {\n                \"value\": 500\n            },\n            \"DiscountPercent\": {\n                \"value\": 0\n            },\n            \"ExtendedPrice\": {\n                \"value\": 2500\n            },\n            \"FreeItem\": {\n                \"value\": false\n            },\n            \"InventoryID\": {\n                \"value\": \"AACOMPUT01\"\n            },\n            \"LastModifiedDate\": {\n                \"value\": \"08/19/2021 17:50:54\"\n            },\n            \"LineDescription\": {\n                \"value\": \"Acer Laptop Computer\"\n            },\n            \"LineNbr\": {\n                \"value\": 1\n            },\n            \"LineType\": {\n                \"value\": \"Goods for Inventory\"\n            },\n            \"Location\": {},\n            \"ManualDiscount\": {\n                \"value\": false\n            },\n            \"MarkForPO\": {\n                \"value\": false\n            },\n            \"OpenQty\": {\n                \"value\": 5\n            },\n            \"Operation\": {\n                \"value\": \"Receipt\"\n            },\n            \"OrderQty\": {\n                \"value\": 5\n            },\n            \"OvershipThreshold\": {\n                \"value\": 100\n            },\n            \"POSource\": {},\n            \"ProjectTask\": {},\n            \"QtyOnShipments\": {\n                \"value\": 0\n            },\n            \"ReasonCode\": {},\n            \"RequestedOn\": {\n                \"value\": \"2021-08-19T00:00:00+03:00\"\n            },\n            \"SalespersonID\": {\n                \"value\": \"SP0009\"\n            },\n            \"ShipOn\": {\n                \"value\": \"2021-08-19T00:00:00+03:00\"\n            },\n            \"ShippingRule\": {\n                \"value\": \"Back Order Allowed\"\n            },\n            \"TaxCategory\": {\n                \"value\": \"EXEMPT\"\n            },\n            \"UnbilledAmount\": {\n                \"value\": 2500\n            },\n            \"UndershipThreshold\": {\n                \"value\": 100\n            },\n            \"UnitCost\": {\n                \"value\": 250\n            },\n            \"UnitPrice\": {\n                \"value\": 500\n            },\n            \"UOM\": {\n                \"value\": \"EA\"\n            },\n            \"WarehouseID\": {\n                \"value\": \"WHOLESALE\"\n            },\n            \"custom\": {}\n        }\n    ],\n    \"DisableAutomaticDiscountUpdate\": {\n        \"value\": false\n    },\n    \"EffectiveDate\": {\n        \"value\": \"2021-08-19T00:00:00+03:00\"\n    },\n    \"ExternalRef\": {},\n    \"Hold\": {\n        \"value\": false\n    },\n    \"IsTaxValid\": {\n        \"value\": false\n    },\n    \"LastModified\": {\n        \"value\": \"2021-08-19T17:50:54.97+03:00\"\n    },\n    \"LocationID\": {\n        \"value\": \"MAIN\"\n    },\n    \"OrderedQty\": {\n        \"value\": 5\n    },\n    \"OrderNbr\": {\n        \"value\": \"AR009872\"\n    },\n    \"OrderTotal\": {\n        \"value\": 2500\n    },\n    \"OrderType\": {\n        \"value\": \"RC\"\n    },\n    \"PaymentMethod\": {\n        \"value\": \"VISATOK\"\n    },\n    \"Payments\": [\n        {\n            \"id\": \"18c50eda-fc00-ec11-9df5-9828a61840c3\",\n            \"rowNumber\": 1,\n            \"note\": {\n                \"value\": \"\"\n            },\n            \"ApplicationDate\": {\n                \"value\": \"2021-08-19T00:00:00+03:00\"\n            },\n            \"AppliedToOrder\": {\n                \"value\": 40\n            },\n            \"Authorize\": {},\n            \"Balance\": {\n                \"value\": 0\n            },\n            \"Capture\": {},\n            \"CardAccountNbr\": {\n                \"value\": \"2329\"\n            },\n            \"CashAccount\": {\n                \"value\": \"10600\"\n            },\n            \"Currency\": {\n                \"value\": \"USD\"\n            },\n            \"Description\": {},\n            \"DocType\": {\n                \"value\": \"Customer Refund\"\n            },\n            \"Hold\": {\n                \"value\": false\n            },\n            \"LastModifiedDateTime\": {\n                \"value\": \"2021-08-19T17:51:00.147+03:00\"\n            },\n            \"OrigTransactionNbr\": {},\n            \"PaymentAmount\": {\n                \"value\": 40\n            },\n            \"PaymentMethod\": {\n                \"value\": \"VISATOK\"\n            },\n            \"PaymentRef\": {\n                \"value\": \"601704533664\"\n            },\n            \"ProcessingCenterID\": {},\n            \"ReferenceNbr\": {\n                \"value\": \"003578\"\n            },\n            \"Refund\": {},\n            \"SaveCard\": {},\n            \"Status\": {\n                \"value\": \"Pending Processing\"\n            },\n            \"TransferredtoInvoice\": {\n                \"value\": 0\n            },\n            \"ValidateCCRefundOrigTransaction\": {\n                \"value\": false\n            },\n            \"custom\": {}\n        }\n    ],\n    \"PreferredWarehouseID\": {},\n    \"Project\": {\n        \"value\": \"X\"\n    },\n    \"ReciprocalRate\": {\n        \"value\": 1\n    },\n    \"RequestedOn\": {\n        \"value\": \"2021-08-19T00:00:00+03:00\"\n    },\n    \"ShipToAddressOverride\": {\n        \"value\": false\n    },\n    \"ShipToContactOverride\": {\n        \"value\": false\n    },\n    \"ShipVia\": {},\n    \"Status\": {\n        \"value\": \"Open\"\n    },\n    \"TaxTotal\": {\n        \"value\": 0\n    },\n    \"VATExemptTotal\": {\n        \"value\": 0\n    },\n    \"VATTaxableTotal\": {\n        \"value\": 0\n    },\n    \"custom\": {}\n}"
+								}
+							]
 						}
 					]
 				},
