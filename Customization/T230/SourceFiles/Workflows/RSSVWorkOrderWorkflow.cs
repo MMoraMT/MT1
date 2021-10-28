@@ -226,17 +226,10 @@ namespace PhoneRepairShop.Workflows
 					))
 					.WithActions(actions =>
 					{
-						//actions.Add(g => g.initializeState, a => a.IsHiddenAlways());
-						actions.Add(g => g.PutOnHold, c => c
-							.InFolder(FolderType.ActionsFolder));
-						//.WithFieldAssignments(fas => fas.Add<RSSVWorkOrder.hold>(f => f.SetFromValue(true)))); ;
-						actions.Add(g => g.ReleaseFromHold, c => c
-							.InFolder(FolderType.ActionsFolder));
-						//.WithFieldAssignments(fas => fas.Add<RSSVWorkOrder.hold>(f => f.SetFromValue(false))));
-						actions.Add(g => g.Assign, c => c
-							.InFolder(FolderType.ActionsFolder));
+						actions.Add(g => g.PutOnHold);
+						actions.Add(g => g.ReleaseFromHold);
+						actions.Add(g => g.Assign);
 						actions.Add(g => g.Complete, c => c
-							.InFolder(FolderType.ActionsFolder)
 							.WithFieldAssignments(fas => fas.Add<RSSVWorkOrder.dateCompleted>(f => f.SetFromToday())));
 					})
 					.WithHandlers(handlers =>
