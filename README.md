@@ -4,7 +4,7 @@ This repository contains examples that are included in the Acumatica ERP develop
 
 Integration development
 
-	# Testing GitHub / Azure DevOps
+	Modificando ando
 
   * [I300](IntegrationDevelopment/I300): Examples from the [I300 Web Services: Basic | Data Retrieval](https://openuni.acumatica.com/courses/integration/i300-web-services-basic-data-retrieval/) training course
   * [I310](IntegrationDevelopment/I310): Examples from the [I310 Web Services: Advanced | Data Retrieval](https://openuni.acumatica.com/courses/integration/i310-web-services-advanced-data-retrieval/) training course
